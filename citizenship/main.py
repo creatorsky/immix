@@ -161,17 +161,17 @@ def plot_analytics(df):
     # Create the plot
     plt.xkcd(scale=1, length=100, randomness=2)  # Apply xkcd style
 
-    fig, ax = plt.subplots(figsize=(8, 10))
+    fig, ax = plt.subplots(figsize=(10, 8))
     bars = ax.barh(df["Processing Step"], df["Average Time (Days)"], color='skyblue')
 
     # Add text to bars
     for bar in bars:
         width = bar.get_width()
         ax.text(width + 1, bar.get_y() + bar.get_height() / 2, f"{int(width)} days",
-                va='center', ha='left', fontsize=15)
+                va='center', ha='left', fontsize=17)
 
     # Add "Total days" text in the top right
-    ax.text(max(df["Average Time (Days)"]) - 5, 0,
+    ax.text(max(df["Average Time (Days)"]), 0,
             f"Total days: {int(total_days)}", fontsize=17, ha='center', color='red',
             bbox=dict(facecolor='white'))
 
