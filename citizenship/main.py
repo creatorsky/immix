@@ -152,14 +152,14 @@ def plot_analytics(df):
     # Create the plot again
     plt.xkcd(scale=1, length=100, randomness=2)  # Apply xkcd style
 
-    fig, ax = plt.subplots(figsize=(13, 6))
+    fig, ax = plt.subplots(figsize=(10, 6))
     bars = ax.barh(df["Processing Step"], df["Average Time (Days)"], color='skyblue')
 
     # Add text to bars
     for bar in bars:
         width = bar.get_width()
         ax.text(width + 1, bar.get_y() + bar.get_height() / 2, f"{int(width)} days",
-                va='center', ha='left', fontsize=10)
+                va='center', ha='left', fontsize=12)
 
     # Add "Total days" text in the top right
     ax.text(max(df["Average Time (Days)"]) + 30, -0.5,
@@ -181,7 +181,7 @@ def plot_analytics(df):
 
 
 def main():
-    # get_and_write_data()
+    get_and_write_data()
     data = read_data()
     df = pd.DataFrame(data)
     field_to_header_name = get_field_to_columns()
