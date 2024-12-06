@@ -152,33 +152,37 @@ def plot_analytics(df):
     df["Processing Step"] = df["Processing Step"].str.replace(" date", "", regex=False)
     df["Processing Step"] = df["Processing Step"].str.replace(" Date", "", regex=False)
 
+    # Word-wrap y-axis labels
     df["Processing Step"] = df["Processing Step"].apply(lambda x: "\n".join(textwrap.wrap(x, width=25)))
 
     # Calculate total days
     total_days = df["Average Time (Days)"].sum()
 
-    # Create the plot again
+    # Create the plot
     plt.xkcd(scale=1, length=100, randomness=2)  # Apply xkcd style
 
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(8, 10))
     bars = ax.barh(df["Processing Step"], df["Average Time (Days)"], color='skyblue')
 
     # Add text to bars
     for bar in bars:
         width = bar.get_width()
         ax.text(width + 1, bar.get_y() + bar.get_height() / 2, f"{int(width)} days",
-                va='center', ha='left', fontsize=12)
+                va='center', ha='left', fontsize=15)
 
     # Add "Total days" text in the top right
-    ax.text(max(df["Average Time (Days)"]) + 30, -0.5,
-            f"Total days: {int(total_days)}", fontsize=14, ha='center', color='red',
-            bbox=dict(facecolor='white', alpha=0.8))
+    ax.text(max(df["Average Time (Days)"]) - 5, 0,
+            f"Total days: {int(total_days)}", fontsize=17, ha='center', color='red',
+            bbox=dict(facecolor='white'))
 
     # Title and labels
-    ax.set_title("Canadian Citizenship Tracker", fontsize=16, loc='center')
+    ax.set_title("Canadian Citizenship Tracker", fontsize=20, loc='center')
     ax.set_xlabel("")
     ax.set_ylabel("")
-    ax.set_xlim(0, max(df["Average Time (Days)"]) + 50)
+
+    # Dynamically set x-axis range (e.g., add 10% buffer)
+    max_days = max(df["Average Time (Days)"])
+    ax.set_xlim(0, max_days + max_days * 0.3)  # Add a 10% buffer above max_days
 
     # Properly reverse the y-axis order
     ax.invert_yaxis()
@@ -189,7 +193,7 @@ def plot_analytics(df):
 
 
 def main():
-    # get_and_write_data()
+    get_and_write_data()
     data = read_data()
     df = pd.DataFrame(data)
     field_to_header_name = get_field_to_columns()
