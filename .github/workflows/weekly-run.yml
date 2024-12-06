@@ -38,6 +38,6 @@ jobs:
         run: |
           git config --local user.email "p.sky002@gmail.com"
           git config --local user.name "creatorsky"
-          git add citizenship/citizenship_tracker.png README.md
+          git add -u
           git commit -m "Update citizenship tracker image [skip ci]"
           git push
