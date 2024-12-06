@@ -1,3 +1,5 @@
+import textwrap
+
 import pandas as pd
 import json
 from tqdm import tqdm
@@ -104,7 +106,7 @@ def read_data():
     return data
 
 
-def get_analyrics(df):
+def get_analytics(df):
     # List of columns relevant to the process
     validated_columns_with_aor = [
         'Application Sent Date',
@@ -120,6 +122,10 @@ def get_analyrics(df):
     for col in validated_columns_with_aor:
         if col in df.columns:
             df[col] = pd.to_datetime(df[col], errors='coerce')
+
+    # Filter for applications sent in the last year
+    one_year_ago = pd.Timestamp.now() - pd.DateOffset(years=1)
+    df = df[df['Application Sent Date'] >= one_year_ago]
 
     # Filter for valid rows with non-null values in all relevant columns
     valid_data = df.dropna(subset=validated_columns_with_aor)
@@ -145,6 +151,8 @@ def plot_analytics(df):
     # Remove the word "date" (case-insensitive) from all y-axis labels
     df["Processing Step"] = df["Processing Step"].str.replace(" date", "", regex=False)
     df["Processing Step"] = df["Processing Step"].str.replace(" Date", "", regex=False)
+
+    df["Processing Step"] = df["Processing Step"].apply(lambda x: "\n".join(textwrap.wrap(x, width=25)))
 
     # Calculate total days
     total_days = df["Average Time (Days)"].sum()
@@ -181,14 +189,14 @@ def plot_analytics(df):
 
 
 def main():
-    get_and_write_data()
+    # get_and_write_data()
     data = read_data()
     df = pd.DataFrame(data)
     field_to_header_name = get_field_to_columns()
     # if df column name present in field_to_header_name, replace it with headerName
     df.columns = [field_to_header_name.get(col, col) for col in df.columns]
 
-    step_durations_df = get_analyrics(df)
+    step_durations_df = get_analytics(df)
     plot_analytics(step_durations_df)
 
 
