@@ -4,6 +4,7 @@ on:
   schedule:
     # Run every week at 00:00 UTC on Monday
     - cron: "0 0 * * 1"
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
   run-script:
@@ -27,13 +28,13 @@ jobs:
           source .venv/bin/activate
           pip install -r requirements.txt
 
-      # Step 4: Run the root tracker.py
+      # Step 4: Run the root immix.py script
       - name: Run immix.py
         run: |
           source .venv/bin/activate
           python immix.py
 
-      # Step 5: Commit the updated image
+      # Step 5: Commit and push changes
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
