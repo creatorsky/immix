@@ -32,7 +32,7 @@ jobs:
       - name: Install XKCD Script Font
         run: |
           mkdir -p ~/.fonts
-          wget -qO ~/.fonts/XKCDScript.ttf https://raw.githubusercontent.com/ipython/xkcd-font/raw/master/xkcd-script/font/xkcd-script.ttf
+          wget -qO ~/.fonts/XKCDScript.ttf https://github.com/ipython/xkcd-font/raw/refs/heads/master/xkcd-script/font/xkcd-script.ttf
           fc-cache -f -v  # Refresh font cache
 
       # Step 5: Run the root immix.py script
