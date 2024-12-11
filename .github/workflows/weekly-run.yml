@@ -28,13 +28,20 @@ jobs:
           source .venv/bin/activate
           pip install -r requirements.txt
 
-      # Step 4: Run the root immix.py script
+      # Step 4: Install XKCD Script Font
+      - name: Install XKCD Script Font
+        run: |
+          mkdir -p ~/.fonts
+          wget -qO ~/.fonts/XKCDScript.ttf https://raw.githubusercontent.com/ipython/xkcd-font/raw/master/xkcd-script/font/xkcd-script.ttf
+          fc-cache -f -v  # Refresh font cache
+
+      # Step 5: Run the root immix.py script
       - name: Run immix.py
         run: |
           source .venv/bin/activate
           python immix.py
 
-      # Step 5: Commit and push changes
+      # Step 6: Commit and push changes
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
