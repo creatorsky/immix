@@ -1,0 +1,4982 @@
+{
+  "columns": [
+    {
+      "headerName": "Nationality",
+      "field": "xodos-nymub-sovog-zolyr-kafit-finit-hyluk-cymek-bixax",
+      "type": "select",
+      "width": null,
+      "headerTooltip": "current nationality of an applicant",
+      "filterValues": [
+        [
+          "AF",
+          "Afghanistan"
+        ],
+        [
+          "AL",
+          "Albania"
+        ],
+        [
+          "DZ",
+          "Algeria"
+        ],
+        [
+          "AS",
+          "American Samoa"
+        ],
+        [
+          "AD",
+          "Andorra"
+        ],
+        [
+          "AO",
+          "Angola"
+        ],
+        [
+          "AI",
+          "Anguilla"
+        ],
+        [
+          "AQ",
+          "Antarctica"
+        ],
+        [
+          "AG",
+          "Antigua and Barbuda"
+        ],
+        [
+          "AR",
+          "Argentina"
+        ],
+        [
+          "AM",
+          "Armenia"
+        ],
+        [
+          "AW",
+          "Aruba"
+        ],
+        [
+          "AU",
+          "Australia"
+        ],
+        [
+          "AT",
+          "Austria"
+        ],
+        [
+          "AZ",
+          "Azerbaijan"
+        ],
+        [
+          "BS",
+          "Bahamas"
+        ],
+        [
+          "BH",
+          "Bahrain"
+        ],
+        [
+          "BD",
+          "Bangladesh"
+        ],
+        [
+          "BB",
+          "Barbados"
+        ],
+        [
+          "BY",
+          "Belarus"
+        ],
+        [
+          "BE",
+          "Belgium"
+        ],
+        [
+          "BZ",
+          "Belize"
+        ],
+        [
+          "BJ",
+          "Benin"
+        ],
+        [
+          "BM",
+          "Bermuda"
+        ],
+        [
+          "BT",
+          "Bhutan"
+        ],
+        [
+          "BO",
+          "Bolivia (Plurinational State of)"
+        ],
+        [
+          "BQ",
+          "Bonaire, Sint Eustatius and Saba"
+        ],
+        [
+          "BA",
+          "Bosnia and Herzegovina"
+        ],
+        [
+          "BW",
+          "Botswana"
+        ],
+        [
+          "BV",
+          "Bouvet Island"
+        ],
+        [
+          "BR",
+          "Brazil"
+        ],
+        [
+          "IO",
+          "British Indian Ocean Territory"
+        ],
+        [
+          "BN",
+          "Brunei Darussalam"
+        ],
+        [
+          "BG",
+          "Bulgaria"
+        ],
+        [
+          "BF",
+          "Burkina Faso"
+        ],
+        [
+          "BI",
+          "Burundi"
+        ],
+        [
+          "CV",
+          "Cabo Verde"
+        ],
+        [
+          "KH",
+          "Cambodia"
+        ],
+        [
+          "CM",
+          "Cameroon"
+        ],
+        [
+          "CA",
+          "Canada"
+        ],
+        [
+          "KY",
+          "Cayman Islands"
+        ],
+        [
+          "CF",
+          "Central African Republic"
+        ],
+        [
+          "TD",
+          "Chad"
+        ],
+        [
+          "CL",
+          "Chile"
+        ],
+        [
+          "CN",
+          "China"
+        ],
+        [
+          "CX",
+          "Christmas Island"
+        ],
+        [
+          "CC",
+          "Cocos (Keeling) Islands"
+        ],
+        [
+          "CO",
+          "Colombia"
+        ],
+        [
+          "KM",
+          "Comoros"
+        ],
+        [
+          "CG",
+          "Congo"
+        ],
+        [
+          "CD",
+          "Congo (Democratic Republic of the)"
+        ],
+        [
+          "CK",
+          "Cook Islands"
+        ],
+        [
+          "CR",
+          "Costa Rica"
+        ],
+        [
+          "HR",
+          "Croatia"
+        ],
+        [
+          "CU",
+          "Cuba"
+        ],
+        [
+          "CW",
+          "Curaçao"
+        ],
+        [
+          "CY",
+          "Cyprus"
+        ],
+        [
+          "CZ",
+          "Czechia"
+        ],
+        [
+          "CI",
+          "Côte d'Ivoire"
+        ],
+        [
+          "DK",
+          "Denmark"
+        ],
+        [
+          "DJ",
+          "Djibouti"
+        ],
+        [
+          "DM",
+          "Dominica"
+        ],
+        [
+          "DO",
+          "Dominican Republic"
+        ],
+        [
+          "EC",
+          "Ecuador"
+        ],
+        [
+          "EG",
+          "Egypt"
+        ],
+        [
+          "SV",
+          "El Salvador"
+        ],
+        [
+          "GQ",
+          "Equatorial Guinea"
+        ],
+        [
+          "ER",
+          "Eritrea"
+        ],
+        [
+          "EE",
+          "Estonia"
+        ],
+        [
+          "ET",
+          "Ethiopia"
+        ],
+        [
+          "FK",
+          "Falkland Islands (Malvinas)"
+        ],
+        [
+          "FO",
+          "Faroe Islands"
+        ],
+        [
+          "FJ",
+          "Fiji"
+        ],
+        [
+          "FI",
+          "Finland"
+        ],
+        [
+          "FR",
+          "France"
+        ],
+        [
+          "GF",
+          "French Guiana"
+        ],
+        [
+          "PF",
+          "French Polynesia"
+        ],
+        [
+          "TF",
+          "French Southern Territories"
+        ],
+        [
+          "GA",
+          "Gabon"
+        ],
+        [
+          "GM",
+          "Gambia"
+        ],
+        [
+          "GE",
+          "Georgia"
+        ],
+        [
+          "DE",
+          "Germany"
+        ],
+        [
+          "GH",
+          "Ghana"
+        ],
+        [
+          "GI",
+          "Gibraltar"
+        ],
+        [
+          "GR",
+          "Greece"
+        ],
+        [
+          "GL",
+          "Greenland"
+        ],
+        [
+          "GD",
+          "Grenada"
+        ],
+        [
+          "GP",
+          "Guadeloupe"
+        ],
+        [
+          "GU",
+          "Guam"
+        ],
+        [
+          "GT",
+          "Guatemala"
+        ],
+        [
+          "GG",
+          "Guernsey"
+        ],
+        [
+          "GN",
+          "Guinea"
+        ],
+        [
+          "GW",
+          "Guinea-Bissau"
+        ],
+        [
+          "GY",
+          "Guyana"
+        ],
+        [
+          "HT",
+          "Haiti"
+        ],
+        [
+          "HM",
+          "Heard Island and McDonald Islands"
+        ],
+        [
+          "VA",
+          "Holy See"
+        ],
+        [
+          "HN",
+          "Honduras"
+        ],
+        [
+          "HK",
+          "Hong Kong"
+        ],
+        [
+          "HU",
+          "Hungary"
+        ],
+        [
+          "IS",
+          "Iceland"
+        ],
+        [
+          "IN",
+          "India"
+        ],
+        [
+          "ID",
+          "Indonesia"
+        ],
+        [
+          "IR",
+          "Iran (Islamic Republic of)"
+        ],
+        [
+          "IQ",
+          "Iraq"
+        ],
+        [
+          "IE",
+          "Ireland"
+        ],
+        [
+          "IM",
+          "Isle of Man"
+        ],
+        [
+          "IL",
+          "Israel"
+        ],
+        [
+          "IT",
+          "Italy"
+        ],
+        [
+          "JM",
+          "Jamaica"
+        ],
+        [
+          "JP",
+          "Japan"
+        ],
+        [
+          "JE",
+          "Jersey"
+        ],
+        [
+          "JO",
+          "Jordan"
+        ],
+        [
+          "KZ",
+          "Kazakhstan"
+        ],
+        [
+          "KE",
+          "Kenya"
+        ],
+        [
+          "KI",
+          "Kiribati"
+        ],
+        [
+          "KP",
+          "Korea (Democratic People's Republic of)"
+        ],
+        [
+          "KR",
+          "Korea (Republic of)"
+        ],
+        [
+          "KW",
+          "Kuwait"
+        ],
+        [
+          "KG",
+          "Kyrgyzstan"
+        ],
+        [
+          "LA",
+          "Lao People's Democratic Republic"
+        ],
+        [
+          "LV",
+          "Latvia"
+        ],
+        [
+          "LB",
+          "Lebanon"
+        ],
+        [
+          "LS",
+          "Lesotho"
+        ],
+        [
+          "LR",
+          "Liberia"
+        ],
+        [
+          "LY",
+          "Libya"
+        ],
+        [
+          "LI",
+          "Liechtenstein"
+        ],
+        [
+          "LT",
+          "Lithuania"
+        ],
+        [
+          "LU",
+          "Luxembourg"
+        ],
+        [
+          "MO",
+          "Macao"
+        ],
+        [
+          "MK",
+          "Macedonia (the former Yugoslav Republic of)"
+        ],
+        [
+          "MG",
+          "Madagascar"
+        ],
+        [
+          "MW",
+          "Malawi"
+        ],
+        [
+          "MY",
+          "Malaysia"
+        ],
+        [
+          "MV",
+          "Maldives"
+        ],
+        [
+          "ML",
+          "Mali"
+        ],
+        [
+          "MT",
+          "Malta"
+        ],
+        [
+          "MH",
+          "Marshall Islands"
+        ],
+        [
+          "MQ",
+          "Martinique"
+        ],
+        [
+          "MR",
+          "Mauritania"
+        ],
+        [
+          "MU",
+          "Mauritius"
+        ],
+        [
+          "YT",
+          "Mayotte"
+        ],
+        [
+          "MX",
+          "Mexico"
+        ],
+        [
+          "FM",
+          "Micronesia (Federated States of)"
+        ],
+        [
+          "MD",
+          "Moldova (Republic of)"
+        ],
+        [
+          "MC",
+          "Monaco"
+        ],
+        [
+          "MN",
+          "Mongolia"
+        ],
+        [
+          "ME",
+          "Montenegro"
+        ],
+        [
+          "MS",
+          "Montserrat"
+        ],
+        [
+          "MA",
+          "Morocco"
+        ],
+        [
+          "MZ",
+          "Mozambique"
+        ],
+        [
+          "MM",
+          "Myanmar"
+        ],
+        [
+          "NA",
+          "Namibia"
+        ],
+        [
+          "NR",
+          "Nauru"
+        ],
+        [
+          "NP",
+          "Nepal"
+        ],
+        [
+          "NL",
+          "Netherlands"
+        ],
+        [
+          "NC",
+          "New Caledonia"
+        ],
+        [
+          "NZ",
+          "New Zealand"
+        ],
+        [
+          "NI",
+          "Nicaragua"
+        ],
+        [
+          "NE",
+          "Niger"
+        ],
+        [
+          "NG",
+          "Nigeria"
+        ],
+        [
+          "NU",
+          "Niue"
+        ],
+        [
+          "NF",
+          "Norfolk Island"
+        ],
+        [
+          "MP",
+          "Northern Mariana Islands"
+        ],
+        [
+          "NO",
+          "Norway"
+        ],
+        [
+          "OM",
+          "Oman"
+        ],
+        [
+          "PK",
+          "Pakistan"
+        ],
+        [
+          "PW",
+          "Palau"
+        ],
+        [
+          "PS",
+          "Palestine, State of"
+        ],
+        [
+          "PA",
+          "Panama"
+        ],
+        [
+          "PG",
+          "Papua New Guinea"
+        ],
+        [
+          "PY",
+          "Paraguay"
+        ],
+        [
+          "PE",
+          "Peru"
+        ],
+        [
+          "PH",
+          "Philippines"
+        ],
+        [
+          "PN",
+          "Pitcairn"
+        ],
+        [
+          "PL",
+          "Poland"
+        ],
+        [
+          "PT",
+          "Portugal"
+        ],
+        [
+          "PR",
+          "Puerto Rico"
+        ],
+        [
+          "QA",
+          "Qatar"
+        ],
+        [
+          "RO",
+          "Romania"
+        ],
+        [
+          "RU",
+          "Russian Federation"
+        ],
+        [
+          "RW",
+          "Rwanda"
+        ],
+        [
+          "RE",
+          "Réunion"
+        ],
+        [
+          "BL",
+          "Saint Barthélemy"
+        ],
+        [
+          "SH",
+          "Saint Helena, Ascension and Tristan da Cunha"
+        ],
+        [
+          "KN",
+          "Saint Kitts and Nevis"
+        ],
+        [
+          "LC",
+          "Saint Lucia"
+        ],
+        [
+          "MF",
+          "Saint Martin (French part)"
+        ],
+        [
+          "PM",
+          "Saint Pierre and Miquelon"
+        ],
+        [
+          "VC",
+          "Saint Vincent and the Grenadines"
+        ],
+        [
+          "WS",
+          "Samoa"
+        ],
+        [
+          "SM",
+          "San Marino"
+        ],
+        [
+          "ST",
+          "Sao Tome and Principe"
+        ],
+        [
+          "SA",
+          "Saudi Arabia"
+        ],
+        [
+          "SN",
+          "Senegal"
+        ],
+        [
+          "RS",
+          "Serbia"
+        ],
+        [
+          "SC",
+          "Seychelles"
+        ],
+        [
+          "SL",
+          "Sierra Leone"
+        ],
+        [
+          "SG",
+          "Singapore"
+        ],
+        [
+          "SX",
+          "Sint Maarten (Dutch part)"
+        ],
+        [
+          "SK",
+          "Slovakia"
+        ],
+        [
+          "SI",
+          "Slovenia"
+        ],
+        [
+          "SB",
+          "Solomon Islands"
+        ],
+        [
+          "SO",
+          "Somalia"
+        ],
+        [
+          "ZA",
+          "South Africa"
+        ],
+        [
+          "GS",
+          "South Georgia and the South Sandwich Islands"
+        ],
+        [
+          "SS",
+          "South Sudan"
+        ],
+        [
+          "ES",
+          "Spain"
+        ],
+        [
+          "LK",
+          "Sri Lanka"
+        ],
+        [
+          "SD",
+          "Sudan"
+        ],
+        [
+          "SR",
+          "Suriname"
+        ],
+        [
+          "SJ",
+          "Svalbard and Jan Mayen"
+        ],
+        [
+          "SZ",
+          "Swaziland"
+        ],
+        [
+          "SE",
+          "Sweden"
+        ],
+        [
+          "CH",
+          "Switzerland"
+        ],
+        [
+          "SY",
+          "Syrian Arab Republic"
+        ],
+        [
+          "TW",
+          "Taiwan, Province of China"
+        ],
+        [
+          "TJ",
+          "Tajikistan"
+        ],
+        [
+          "TZ",
+          "Tanzania, United Republic of"
+        ],
+        [
+          "TH",
+          "Thailand"
+        ],
+        [
+          "TL",
+          "Timor-Leste"
+        ],
+        [
+          "TG",
+          "Togo"
+        ],
+        [
+          "TK",
+          "Tokelau"
+        ],
+        [
+          "TO",
+          "Tonga"
+        ],
+        [
+          "TT",
+          "Trinidad and Tobago"
+        ],
+        [
+          "TN",
+          "Tunisia"
+        ],
+        [
+          "TR",
+          "Turkey"
+        ],
+        [
+          "TM",
+          "Turkmenistan"
+        ],
+        [
+          "TC",
+          "Turks and Caicos Islands"
+        ],
+        [
+          "TV",
+          "Tuvalu"
+        ],
+        [
+          "UG",
+          "Uganda"
+        ],
+        [
+          "UA",
+          "Ukraine"
+        ],
+        [
+          "AE",
+          "United Arab Emirates"
+        ],
+        [
+          "GB",
+          "United Kingdom of Great Britain and Northern Ireland"
+        ],
+        [
+          "UM",
+          "United States Minor Outlying Islands"
+        ],
+        [
+          "US",
+          "United States of America"
+        ],
+        [
+          "UY",
+          "Uruguay"
+        ],
+        [
+          "UZ",
+          "Uzbekistan"
+        ],
+        [
+          "VU",
+          "Vanuatu"
+        ],
+        [
+          "VE",
+          "Venezuela (Bolivarian Republic of)"
+        ],
+        [
+          "VN",
+          "Viet Nam"
+        ],
+        [
+          "VG",
+          "Virgin Islands (British)"
+        ],
+        [
+          "VI",
+          "Virgin Islands (U.S.)"
+        ],
+        [
+          "WF",
+          "Wallis and Futuna"
+        ],
+        [
+          "EH",
+          "Western Sahara"
+        ],
+        [
+          "YE",
+          "Yemen"
+        ],
+        [
+          "ZM",
+          "Zambia"
+        ],
+        [
+          "ZW",
+          "Zimbabwe"
+        ],
+        [
+          "AX",
+          "Åland Islands"
+        ]
+      ]
+    },
+    {
+      "headerName": "Country of Residence",
+      "field": "xecat-gatas-lekyf-vymuz-hyfan-kuban-nipyc-bicos-hixux",
+      "type": "select",
+      "width": null,
+      "headerTooltip": "where are you currently reside?",
+      "filterValues": [
+        [
+          "AF",
+          "Afghanistan"
+        ],
+        [
+          "AL",
+          "Albania"
+        ],
+        [
+          "DZ",
+          "Algeria"
+        ],
+        [
+          "AS",
+          "American Samoa"
+        ],
+        [
+          "AD",
+          "Andorra"
+        ],
+        [
+          "AO",
+          "Angola"
+        ],
+        [
+          "AI",
+          "Anguilla"
+        ],
+        [
+          "AQ",
+          "Antarctica"
+        ],
+        [
+          "AG",
+          "Antigua and Barbuda"
+        ],
+        [
+          "AR",
+          "Argentina"
+        ],
+        [
+          "AM",
+          "Armenia"
+        ],
+        [
+          "AW",
+          "Aruba"
+        ],
+        [
+          "AU",
+          "Australia"
+        ],
+        [
+          "AT",
+          "Austria"
+        ],
+        [
+          "AZ",
+          "Azerbaijan"
+        ],
+        [
+          "BS",
+          "Bahamas"
+        ],
+        [
+          "BH",
+          "Bahrain"
+        ],
+        [
+          "BD",
+          "Bangladesh"
+        ],
+        [
+          "BB",
+          "Barbados"
+        ],
+        [
+          "BY",
+          "Belarus"
+        ],
+        [
+          "BE",
+          "Belgium"
+        ],
+        [
+          "BZ",
+          "Belize"
+        ],
+        [
+          "BJ",
+          "Benin"
+        ],
+        [
+          "BM",
+          "Bermuda"
+        ],
+        [
+          "BT",
+          "Bhutan"
+        ],
+        [
+          "BO",
+          "Bolivia (Plurinational State of)"
+        ],
+        [
+          "BQ",
+          "Bonaire, Sint Eustatius and Saba"
+        ],
+        [
+          "BA",
+          "Bosnia and Herzegovina"
+        ],
+        [
+          "BW",
+          "Botswana"
+        ],
+        [
+          "BV",
+          "Bouvet Island"
+        ],
+        [
+          "BR",
+          "Brazil"
+        ],
+        [
+          "IO",
+          "British Indian Ocean Territory"
+        ],
+        [
+          "BN",
+          "Brunei Darussalam"
+        ],
+        [
+          "BG",
+          "Bulgaria"
+        ],
+        [
+          "BF",
+          "Burkina Faso"
+        ],
+        [
+          "BI",
+          "Burundi"
+        ],
+        [
+          "CV",
+          "Cabo Verde"
+        ],
+        [
+          "KH",
+          "Cambodia"
+        ],
+        [
+          "CM",
+          "Cameroon"
+        ],
+        [
+          "CA",
+          "Canada"
+        ],
+        [
+          "KY",
+          "Cayman Islands"
+        ],
+        [
+          "CF",
+          "Central African Republic"
+        ],
+        [
+          "TD",
+          "Chad"
+        ],
+        [
+          "CL",
+          "Chile"
+        ],
+        [
+          "CN",
+          "China"
+        ],
+        [
+          "CX",
+          "Christmas Island"
+        ],
+        [
+          "CC",
+          "Cocos (Keeling) Islands"
+        ],
+        [
+          "CO",
+          "Colombia"
+        ],
+        [
+          "KM",
+          "Comoros"
+        ],
+        [
+          "CG",
+          "Congo"
+        ],
+        [
+          "CD",
+          "Congo (Democratic Republic of the)"
+        ],
+        [
+          "CK",
+          "Cook Islands"
+        ],
+        [
+          "CR",
+          "Costa Rica"
+        ],
+        [
+          "HR",
+          "Croatia"
+        ],
+        [
+          "CU",
+          "Cuba"
+        ],
+        [
+          "CW",
+          "Curaçao"
+        ],
+        [
+          "CY",
+          "Cyprus"
+        ],
+        [
+          "CZ",
+          "Czechia"
+        ],
+        [
+          "CI",
+          "Côte d'Ivoire"
+        ],
+        [
+          "DK",
+          "Denmark"
+        ],
+        [
+          "DJ",
+          "Djibouti"
+        ],
+        [
+          "DM",
+          "Dominica"
+        ],
+        [
+          "DO",
+          "Dominican Republic"
+        ],
+        [
+          "EC",
+          "Ecuador"
+        ],
+        [
+          "EG",
+          "Egypt"
+        ],
+        [
+          "SV",
+          "El Salvador"
+        ],
+        [
+          "GQ",
+          "Equatorial Guinea"
+        ],
+        [
+          "ER",
+          "Eritrea"
+        ],
+        [
+          "EE",
+          "Estonia"
+        ],
+        [
+          "ET",
+          "Ethiopia"
+        ],
+        [
+          "FK",
+          "Falkland Islands (Malvinas)"
+        ],
+        [
+          "FO",
+          "Faroe Islands"
+        ],
+        [
+          "FJ",
+          "Fiji"
+        ],
+        [
+          "FI",
+          "Finland"
+        ],
+        [
+          "FR",
+          "France"
+        ],
+        [
+          "GF",
+          "French Guiana"
+        ],
+        [
+          "PF",
+          "French Polynesia"
+        ],
+        [
+          "TF",
+          "French Southern Territories"
+        ],
+        [
+          "GA",
+          "Gabon"
+        ],
+        [
+          "GM",
+          "Gambia"
+        ],
+        [
+          "GE",
+          "Georgia"
+        ],
+        [
+          "DE",
+          "Germany"
+        ],
+        [
+          "GH",
+          "Ghana"
+        ],
+        [
+          "GI",
+          "Gibraltar"
+        ],
+        [
+          "GR",
+          "Greece"
+        ],
+        [
+          "GL",
+          "Greenland"
+        ],
+        [
+          "GD",
+          "Grenada"
+        ],
+        [
+          "GP",
+          "Guadeloupe"
+        ],
+        [
+          "GU",
+          "Guam"
+        ],
+        [
+          "GT",
+          "Guatemala"
+        ],
+        [
+          "GG",
+          "Guernsey"
+        ],
+        [
+          "GN",
+          "Guinea"
+        ],
+        [
+          "GW",
+          "Guinea-Bissau"
+        ],
+        [
+          "GY",
+          "Guyana"
+        ],
+        [
+          "HT",
+          "Haiti"
+        ],
+        [
+          "HM",
+          "Heard Island and McDonald Islands"
+        ],
+        [
+          "VA",
+          "Holy See"
+        ],
+        [
+          "HN",
+          "Honduras"
+        ],
+        [
+          "HK",
+          "Hong Kong"
+        ],
+        [
+          "HU",
+          "Hungary"
+        ],
+        [
+          "IS",
+          "Iceland"
+        ],
+        [
+          "IN",
+          "India"
+        ],
+        [
+          "ID",
+          "Indonesia"
+        ],
+        [
+          "IR",
+          "Iran (Islamic Republic of)"
+        ],
+        [
+          "IQ",
+          "Iraq"
+        ],
+        [
+          "IE",
+          "Ireland"
+        ],
+        [
+          "IM",
+          "Isle of Man"
+        ],
+        [
+          "IL",
+          "Israel"
+        ],
+        [
+          "IT",
+          "Italy"
+        ],
+        [
+          "JM",
+          "Jamaica"
+        ],
+        [
+          "JP",
+          "Japan"
+        ],
+        [
+          "JE",
+          "Jersey"
+        ],
+        [
+          "JO",
+          "Jordan"
+        ],
+        [
+          "KZ",
+          "Kazakhstan"
+        ],
+        [
+          "KE",
+          "Kenya"
+        ],
+        [
+          "KI",
+          "Kiribati"
+        ],
+        [
+          "KP",
+          "Korea (Democratic People's Republic of)"
+        ],
+        [
+          "KR",
+          "Korea (Republic of)"
+        ],
+        [
+          "KW",
+          "Kuwait"
+        ],
+        [
+          "KG",
+          "Kyrgyzstan"
+        ],
+        [
+          "LA",
+          "Lao People's Democratic Republic"
+        ],
+        [
+          "LV",
+          "Latvia"
+        ],
+        [
+          "LB",
+          "Lebanon"
+        ],
+        [
+          "LS",
+          "Lesotho"
+        ],
+        [
+          "LR",
+          "Liberia"
+        ],
+        [
+          "LY",
+          "Libya"
+        ],
+        [
+          "LI",
+          "Liechtenstein"
+        ],
+        [
+          "LT",
+          "Lithuania"
+        ],
+        [
+          "LU",
+          "Luxembourg"
+        ],
+        [
+          "MO",
+          "Macao"
+        ],
+        [
+          "MK",
+          "Macedonia (the former Yugoslav Republic of)"
+        ],
+        [
+          "MG",
+          "Madagascar"
+        ],
+        [
+          "MW",
+          "Malawi"
+        ],
+        [
+          "MY",
+          "Malaysia"
+        ],
+        [
+          "MV",
+          "Maldives"
+        ],
+        [
+          "ML",
+          "Mali"
+        ],
+        [
+          "MT",
+          "Malta"
+        ],
+        [
+          "MH",
+          "Marshall Islands"
+        ],
+        [
+          "MQ",
+          "Martinique"
+        ],
+        [
+          "MR",
+          "Mauritania"
+        ],
+        [
+          "MU",
+          "Mauritius"
+        ],
+        [
+          "YT",
+          "Mayotte"
+        ],
+        [
+          "MX",
+          "Mexico"
+        ],
+        [
+          "FM",
+          "Micronesia (Federated States of)"
+        ],
+        [
+          "MD",
+          "Moldova (Republic of)"
+        ],
+        [
+          "MC",
+          "Monaco"
+        ],
+        [
+          "MN",
+          "Mongolia"
+        ],
+        [
+          "ME",
+          "Montenegro"
+        ],
+        [
+          "MS",
+          "Montserrat"
+        ],
+        [
+          "MA",
+          "Morocco"
+        ],
+        [
+          "MZ",
+          "Mozambique"
+        ],
+        [
+          "MM",
+          "Myanmar"
+        ],
+        [
+          "NA",
+          "Namibia"
+        ],
+        [
+          "NR",
+          "Nauru"
+        ],
+        [
+          "NP",
+          "Nepal"
+        ],
+        [
+          "NL",
+          "Netherlands"
+        ],
+        [
+          "NC",
+          "New Caledonia"
+        ],
+        [
+          "NZ",
+          "New Zealand"
+        ],
+        [
+          "NI",
+          "Nicaragua"
+        ],
+        [
+          "NE",
+          "Niger"
+        ],
+        [
+          "NG",
+          "Nigeria"
+        ],
+        [
+          "NU",
+          "Niue"
+        ],
+        [
+          "NF",
+          "Norfolk Island"
+        ],
+        [
+          "MP",
+          "Northern Mariana Islands"
+        ],
+        [
+          "NO",
+          "Norway"
+        ],
+        [
+          "OM",
+          "Oman"
+        ],
+        [
+          "PK",
+          "Pakistan"
+        ],
+        [
+          "PW",
+          "Palau"
+        ],
+        [
+          "PS",
+          "Palestine, State of"
+        ],
+        [
+          "PA",
+          "Panama"
+        ],
+        [
+          "PG",
+          "Papua New Guinea"
+        ],
+        [
+          "PY",
+          "Paraguay"
+        ],
+        [
+          "PE",
+          "Peru"
+        ],
+        [
+          "PH",
+          "Philippines"
+        ],
+        [
+          "PN",
+          "Pitcairn"
+        ],
+        [
+          "PL",
+          "Poland"
+        ],
+        [
+          "PT",
+          "Portugal"
+        ],
+        [
+          "PR",
+          "Puerto Rico"
+        ],
+        [
+          "QA",
+          "Qatar"
+        ],
+        [
+          "RO",
+          "Romania"
+        ],
+        [
+          "RU",
+          "Russian Federation"
+        ],
+        [
+          "RW",
+          "Rwanda"
+        ],
+        [
+          "RE",
+          "Réunion"
+        ],
+        [
+          "BL",
+          "Saint Barthélemy"
+        ],
+        [
+          "SH",
+          "Saint Helena, Ascension and Tristan da Cunha"
+        ],
+        [
+          "KN",
+          "Saint Kitts and Nevis"
+        ],
+        [
+          "LC",
+          "Saint Lucia"
+        ],
+        [
+          "MF",
+          "Saint Martin (French part)"
+        ],
+        [
+          "PM",
+          "Saint Pierre and Miquelon"
+        ],
+        [
+          "VC",
+          "Saint Vincent and the Grenadines"
+        ],
+        [
+          "WS",
+          "Samoa"
+        ],
+        [
+          "SM",
+          "San Marino"
+        ],
+        [
+          "ST",
+          "Sao Tome and Principe"
+        ],
+        [
+          "SA",
+          "Saudi Arabia"
+        ],
+        [
+          "SN",
+          "Senegal"
+        ],
+        [
+          "RS",
+          "Serbia"
+        ],
+        [
+          "SC",
+          "Seychelles"
+        ],
+        [
+          "SL",
+          "Sierra Leone"
+        ],
+        [
+          "SG",
+          "Singapore"
+        ],
+        [
+          "SX",
+          "Sint Maarten (Dutch part)"
+        ],
+        [
+          "SK",
+          "Slovakia"
+        ],
+        [
+          "SI",
+          "Slovenia"
+        ],
+        [
+          "SB",
+          "Solomon Islands"
+        ],
+        [
+          "SO",
+          "Somalia"
+        ],
+        [
+          "ZA",
+          "South Africa"
+        ],
+        [
+          "GS",
+          "South Georgia and the South Sandwich Islands"
+        ],
+        [
+          "SS",
+          "South Sudan"
+        ],
+        [
+          "ES",
+          "Spain"
+        ],
+        [
+          "LK",
+          "Sri Lanka"
+        ],
+        [
+          "SD",
+          "Sudan"
+        ],
+        [
+          "SR",
+          "Suriname"
+        ],
+        [
+          "SJ",
+          "Svalbard and Jan Mayen"
+        ],
+        [
+          "SZ",
+          "Swaziland"
+        ],
+        [
+          "SE",
+          "Sweden"
+        ],
+        [
+          "CH",
+          "Switzerland"
+        ],
+        [
+          "SY",
+          "Syrian Arab Republic"
+        ],
+        [
+          "TW",
+          "Taiwan, Province of China"
+        ],
+        [
+          "TJ",
+          "Tajikistan"
+        ],
+        [
+          "TZ",
+          "Tanzania, United Republic of"
+        ],
+        [
+          "TH",
+          "Thailand"
+        ],
+        [
+          "TL",
+          "Timor-Leste"
+        ],
+        [
+          "TG",
+          "Togo"
+        ],
+        [
+          "TK",
+          "Tokelau"
+        ],
+        [
+          "TO",
+          "Tonga"
+        ],
+        [
+          "TT",
+          "Trinidad and Tobago"
+        ],
+        [
+          "TN",
+          "Tunisia"
+        ],
+        [
+          "TR",
+          "Turkey"
+        ],
+        [
+          "TM",
+          "Turkmenistan"
+        ],
+        [
+          "TC",
+          "Turks and Caicos Islands"
+        ],
+        [
+          "TV",
+          "Tuvalu"
+        ],
+        [
+          "UG",
+          "Uganda"
+        ],
+        [
+          "UA",
+          "Ukraine"
+        ],
+        [
+          "AE",
+          "United Arab Emirates"
+        ],
+        [
+          "GB",
+          "United Kingdom of Great Britain and Northern Ireland"
+        ],
+        [
+          "UM",
+          "United States Minor Outlying Islands"
+        ],
+        [
+          "US",
+          "United States of America"
+        ],
+        [
+          "UY",
+          "Uruguay"
+        ],
+        [
+          "UZ",
+          "Uzbekistan"
+        ],
+        [
+          "VU",
+          "Vanuatu"
+        ],
+        [
+          "VE",
+          "Venezuela (Bolivarian Republic of)"
+        ],
+        [
+          "VN",
+          "Viet Nam"
+        ],
+        [
+          "VG",
+          "Virgin Islands (British)"
+        ],
+        [
+          "VI",
+          "Virgin Islands (U.S.)"
+        ],
+        [
+          "WF",
+          "Wallis and Futuna"
+        ],
+        [
+          "EH",
+          "Western Sahara"
+        ],
+        [
+          "YE",
+          "Yemen"
+        ],
+        [
+          "ZM",
+          "Zambia"
+        ],
+        [
+          "ZW",
+          "Zimbabwe"
+        ],
+        [
+          "AX",
+          "Åland Islands"
+        ]
+      ]
+    },
+    {
+      "headerName": "Stream",
+      "field": "xidar-kiboc-feruv-vazum-dazul-noror-kemip-pagit-fixix",
+      "type": "select",
+      "width": 172,
+      "headerTooltip": "your stream",
+      "filterValues": [
+        "CEC",
+        "PNP-Inland",
+        "PNP-Outland",
+        "FSW-Outland",
+        "FSW-Inland"
+      ]
+    },
+    {
+      "headerName": "Current Status",
+      "field": "xopos-kybed-picys-supot-gukab-tetyl-luzyd-lekez-gixex",
+      "type": "select",
+      "width": null,
+      "headerTooltip": "Current status of an applicant",
+      "filterValues": [
+        "Submitted",
+        "e-APR AOR",
+        "Medicals Passed",
+        "Biometrics",
+        "Background Check",
+        "Decision Made",
+        "PPR",
+        "Landed",
+        "Refused"
+      ]
+    },
+    {
+      "headerName": "Submitted",
+      "field": "xizik-secyf-mykyk-hogef-tasas-satyr-kyhan-rumab-hixyx",
+      "type": "date",
+      "width": null,
+      "headerTooltip": "Date of application submission",
+      "filterValues": null
+    },
+    {
+      "headerName": "AOR Date",
+      "field": "xuset-kavav-casez-nypek-sybet-synyg-nocan-tyzef-tyxux",
+      "type": "date",
+      "width": null,
+      "headerTooltip": "Date of your AOR?",
+      "filterValues": null
+    },
+    {
+      "headerName": "Medical Passed",
+      "field": "xepot-nucyl-vycon-nivid-micim-rigal-semag-fyzyz-tixyx",
+      "type": "date",
+      "width": null,
+      "headerTooltip": "When did you pass your medicals? Please note: Thats not the date you went to doctor, thats when CIC confirms you passed it.",
+      "filterValues": null
+    },
+    {
+      "headerName": "BGS Last Change Status",
+      "field": "xufol-codoz-vaban-rahuk-sobuc-tumyn-kesev-tikus-naxex",
+      "type": "select",
+      "width": null,
+      "headerTooltip": "current background check status",
+      "filterValues": [
+        "Next step is to conduct BG Check (NBG)",
+        "Not Applicable",
+        "In Progress (1)",
+        "Not Applicable (2)",
+        "In Progress (2)"
+      ]
+    },
+    {
+      "headerName": "Last BGS change Date",
+      "field": "xocoz-vubum-bifub-mitak-varab-habog-genyl-ginat-kaxyx",
+      "type": "date",
+      "width": null,
+      "headerTooltip": "When did background check date changed last time",
+      "filterValues": null
+    },
+    {
+      "headerName": "Biometrics Invitation Letter",
+      "field": "ximos-bykys-likus-nifob-nomum-nytuh-modoz-hezug-myxyx",
+      "type": "date",
+      "width": null,
+      "headerTooltip": "Biometrics Invitation Letter (BIL)",
+      "filterValues": null
+    },
+    {
+      "headerName": "RPRF paid date",
+      "field": "xiden-fadin-lasof-dulaz-mavuk-fyzal-myhuv-humyc-tyxix",
+      "type": "date",
+      "width": null,
+      "headerTooltip": "Date you paid your right of permanent residence fee",
+      "filterValues": null
+    },
+    {
+      "headerName": "Decision Made",
+      "field": "xizon-mupof-fyzys-sogys-lipil-cyvez-lifyr-nyzic-lexix",
+      "type": "date",
+      "width": null,
+      "headerTooltip": "Decision made date based on number being shown under application status",
+      "filterValues": null
+    },
+    {
+      "headerName": "Portal 1 Email (Inland)",
+      "field": "xedac-zyfyn-zylof-cedok-rahem-sirit-tafoh-pygap-poxex",
+      "type": "date",
+      "width": null,
+      "headerTooltip": "Date that inland applicants received Portal 1 email",
+      "filterValues": null
+    },
+    {
+      "headerName": "Portal 2 Email / PPR Date",
+      "field": "xufad-nuraz-bapaz-pinyt-gydoz-nenaf-kipah-rapac-texux",
+      "type": "date",
+      "width": 250,
+      "headerTooltip": "Date you got PPR?",
+      "filterValues": null
+    },
+    {
+      "headerName": "Days from Submission to PPR",
+      "field": "xemef-gigel-sydar-kosur-gyfin-pagas-tepup-dolul-saxix",
+      "type": "range",
+      "width": 249,
+      "headerTooltip": "Days from submission to PPR",
+      "filterValues": null
+    },
+    {
+      "headerName": "Days from AOR to PPR",
+      "field": "xupir-vykiz-dacic-cosuh-menic-puvot-hukag-sapum-taxyx",
+      "type": "range",
+      "width": 200,
+      "headerTooltip": "Days from AOR to PPR",
+      "filterValues": null
+    },
+    {
+      "headerName": "Landing Date (Outland)",
+      "field": "xiseb-tybym-kiber-nakik-mybec-fufuk-nycid-gylyp-dexex",
+      "type": "date",
+      "width": null,
+      "headerTooltip": "The date the Outland applicant landed in Canada",
+      "filterValues": null
+    },
+    {
+      "headerName": "eCoPR Date (Inland Landing)",
+      "field": "xubak-bezec-bokyh-mevid-vazab-gybaf-mysid-vibak-zexex",
+      "type": "date",
+      "width": 250,
+      "headerTooltip": "The date the eCoPR was issued for Inland applicants",
+      "filterValues": null
+    },
+    {
+      "headerName": "Primary VO",
+      "field": "xides-hibyh-pitaf-cumyz-podaz-hikub-zirug-pubek-lyxyx",
+      "type": "select",
+      "width": 250,
+      "headerTooltip": "Based on Portal 1 email confirmation - which IRCC landing office is managing the file",
+      "filterValues": [
+        "Calgary",
+        "Edmonton",
+        "Vancouver",
+        "Surrey",
+        "Winnipeg",
+        "Fredericton",
+        "St. John’s",
+        "Yellowknife",
+        "Halifax",
+        "Hamilton",
+        "Kitchener",
+        "London",
+        "Niagara Falls",
+        "Ottawa",
+        "Mississauga",
+        "Scarborough",
+        "Etobicoke",
+        "Windsor",
+        "Charlottetown",
+        "Montréal",
+        "Saskatoon",
+        "Sydney"
+      ]
+    },
+    {
+      "headerName": "Applicant \u0026 Dependents",
+      "field": "xobik-zodog-fabit-gakyk-mopip-cirof-kacav-bykaz-ryxox",
+      "type": "select",
+      "width": null,
+      "headerTooltip": "how many dependents + principal applicant",
+      "filterValues": [
+        "N/A",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7+"
+      ]
+    },
+    {
+      "headerName": "ITA Date",
+      "field": "xucof-bebuc-caliv-tilur-tenyd-cezas-mutag-buvyt-sixix",
+      "type": "date",
+      "width": 148,
+      "headerTooltip": "Date you received your ITA (invitation to apply)",
+      "filterValues": null
+    },
+    {
+      "headerName": "EE Draw Category",
+      "field": "xogaf-ducar-fyrog-bovuf-zyzos-bibac-lefig-fukit-vexux",
+      "type": "select",
+      "width": null,
+      "headerTooltip": "Express Entry draw category",
+      "filterValues": [
+        "All-program / General",
+        "French-language proficiency",
+        "Healthcare occupations",
+        "STEM occupations",
+        "Trade occupations",
+        "Transport occupations",
+        "Agriculture and agri-food occupations"
+      ]
+    },
+    {
+      "headerName": "Sponsored by Province (if PNP)",
+      "field": "xevol-dyvac-dyfaz-fyzok-cavud-ropok-pohuk-ranad-zuxax",
+      "type": "select",
+      "width": null,
+      "headerTooltip": "If yes sponsored, by which province?",
+      "filterValues": [
+        "ALBERTA",
+        "BRITISH COLUMBIA",
+        "MANITOBA",
+        "NEW BRUNSWICK",
+        "NEWFOUNDLAND and LABRADOR",
+        "NORTHWEST TERRITORIES",
+        "NOVA SCOTIA",
+        "NUNAVUT",
+        "ONTARIO",
+        "PRINCE EDWARD ISLAND",
+        "SASKATCHEWAN",
+        "YUKON"
+      ]
+    },
+    {
+      "headerName": "NOC",
+      "field": "xopag-hyneg-fipyn-nolap-kider-mybaz-zetog-tocep-rixix",
+      "type": "select",
+      "width": null,
+      "headerTooltip": "NOC code",
+      "filterValues": [
+        [
+          "0632",
+          "Accommodation  service managers"
+        ],
+        [
+          "6313",
+          "Accommodation,  travel, tourism and related services supervisors"
+        ],
+        [
+          "1431",
+          "Accounting  and related clerks"
+        ],
+        [
+          "1311",
+          "Accounting  technicians and bookkeepers"
+        ],
+        [
+          "5135",
+          "Actors  and comedians"
+        ],
+        [
+          "1241",
+          "Administrative  assistants"
+        ],
+        [
+          "1221",
+          "Administrative  officers"
+        ],
+        [
+          "0421",
+          "Administrators  - post-secondary education and vocational training"
+        ],
+        [
+          "0124",
+          "Advertising,  marketing and public relations managers"
+        ],
+        [
+          "2146",
+          "Aerospace  engineers"
+        ],
+        [
+          "2222",
+          "Agricultural  and fish products inspectors"
+        ],
+        [
+          "2123",
+          "Agricultural  representatives, consultants and specialists"
+        ],
+        [
+          "8252",
+          "Agricultural  service contractors, farm supervisors and specialized livestock workers"
+        ],
+        [
+          "2271",
+          "Air  pilots, flight engineers and flying instructors"
+        ],
+        [
+          "2272",
+          "Air  traffic controllers and related occupations"
+        ],
+        [
+          "7534",
+          "Air  transport ramp attendants"
+        ],
+        [
+          "9521",
+          "Aircraft  assemblers and aircraft assembly inspectors"
+        ],
+        [
+          "2244",
+          "Aircraft  instrument, electrical and avionics mechanics, technicians and inspectors"
+        ],
+        [
+          "7315",
+          "Aircraft  mechanics and aircraft inspectors"
+        ],
+        [
+          "6523",
+          "Airline  ticket and service agents"
+        ],
+        [
+          "3124",
+          "Allied  primary health practitioners"
+        ],
+        [
+          "3213",
+          "Animal  health technologists and veterinary technicians"
+        ],
+        [
+          "5231",
+          "Announcers  and other broadcasters"
+        ],
+        [
+          "7332",
+          "Appliance  servicers and repairers"
+        ],
+        [
+          "8613",
+          "Aquaculture  and marine harvest labourers"
+        ],
+        [
+          "2151",
+          "Architects"
+        ],
+        [
+          "2251",
+          "Architectural  technologists and technicians"
+        ],
+        [
+          "0212",
+          "Architecture  and science managers"
+        ],
+        [
+          "5113",
+          "Archivists"
+        ],
+        [
+          "5244",
+          "Artisans  and craftspersons"
+        ],
+        [
+          "9524",
+          "Assemblers  and inspectors, electrical appliance, apparatus and equipment manufacturing"
+        ],
+        [
+          "9525",
+          "Assemblers,  fabricators and inspectors, industrial electrical motors and transformers"
+        ],
+        [
+          "1314",
+          "Assessors,  valuators and appraisers"
+        ],
+        [
+          "5251",
+          "Athletes"
+        ],
+        [
+          "5225",
+          "Audio  and video recording technicians"
+        ],
+        [
+          "3141",
+          "Audiologists  and speech-language pathologists"
+        ],
+        [
+          "5121",
+          "Authors  and writers"
+        ],
+        [
+          "7321",
+          "Automotive  service technicians, truck and bus mechanics and mechanical repairers"
+        ],
+        [
+          "6332",
+          "Bakers"
+        ],
+        [
+          "0122",
+          "Banking,  credit and other investment managers"
+        ],
+        [
+          "1434",
+          "Banking,  insurance and other financial clerks"
+        ],
+        [
+          "6512",
+          "Bartenders"
+        ],
+        [
+          "9473",
+          "Binding  and finishing machine operators"
+        ],
+        [
+          "2221",
+          "Biological  technologists and technicians"
+        ],
+        [
+          "2121",
+          "Biologists  and related scientists"
+        ],
+        [
+          "7533",
+          "Boat  and cable ferry operators and related occupations"
+        ],
+        [
+          "9531",
+          "Boat  assemblers and inspectors"
+        ],
+        [
+          "7234",
+          "Boilermakers"
+        ],
+        [
+          "7281",
+          "Bricklayers"
+        ],
+        [
+          "5224",
+          "Broadcast  technicians"
+        ],
+        [
+          "7512",
+          "Bus  drivers, subway operators and other transit operators"
+        ],
+        [
+          "4163",
+          "Business  development officers and marketing researchers and consultants"
+        ],
+        [
+          "6331",
+          "Butchers,  meat cutters and fishmongers - retail and wholesale"
+        ],
+        [
+          "4423",
+          "By-law  enforcement and other regulatory officers, n.e.c."
+        ],
+        [
+          "7272",
+          "Cabinetmakers"
+        ],
+        [
+          "7247",
+          "Cable  television service and maintenance technicians"
+        ],
+        [
+          "9472",
+          "Camera,  platemaking and other prepress occupations"
+        ],
+        [
+          "3217",
+          "Cardiology  technologists and electrophysiological diagnostic technologists, n.e.c."
+        ],
+        [
+          "7271",
+          "Carpenters"
+        ],
+        [
+          "6611",
+          "Cashiers"
+        ],
+        [
+          "6533",
+          "Casino  occupations"
+        ],
+        [
+          "9231",
+          "Central  control and process operators, mineral and metal processing"
+        ],
+        [
+          "8421",
+          "Chain  saw and skidder operators"
+        ],
+        [
+          "6321",
+          "Chefs"
+        ],
+        [
+          "2134",
+          "Chemical  engineers"
+        ],
+        [
+          "9421",
+          "Chemical  plant machine operators"
+        ],
+        [
+          "2211",
+          "Chemical  technologists and technicians"
+        ],
+        [
+          "2112",
+          "Chemists"
+        ],
+        [
+          "3122",
+          "Chiropractors"
+        ],
+        [
+          "2231",
+          "Civil  engineering technologists and technicians"
+        ],
+        [
+          "2131",
+          "Civil  engineers"
+        ],
+        [
+          "6315",
+          "Cleaning  supervisors"
+        ],
+        [
+          "5252",
+          "Coaches"
+        ],
+        [
+          "1435",
+          "Collectors"
+        ],
+        [
+          "4021",
+          "College  and other vocational instructors"
+        ],
+        [
+          "0433",
+          "Commissioned  officers of the Canadian Forces"
+        ],
+        [
+          "0431",
+          "Commissioned  police officers"
+        ],
+        [
+          "0213",
+          "Computer  and information systems managers"
+        ],
+        [
+          "2147",
+          "Computer  engineers (except software engineers and designers)"
+        ],
+        [
+          "2281",
+          "Computer  network technicians"
+        ],
+        [
+          "2174",
+          "Computer  programmers and interactive media developers"
+        ],
+        [
+          "7282",
+          "Concrete  finishers"
+        ],
+        [
+          "9414",
+          "Concrete,  clay and stone forming operators"
+        ],
+        [
+          "5132",
+          "Conductors,  composers and arrangers"
+        ],
+        [
+          "1226",
+          "Conference  and event planners"
+        ],
+        [
+          "2224",
+          "Conservation  and fishery officers"
+        ],
+        [
+          "5112",
+          "Conservators  and curators"
+        ],
+        [
+          "2234",
+          "Construction  estimators"
+        ],
+        [
+          "2264",
+          "Construction  inspectors"
+        ],
+        [
+          "0711",
+          "Construction  managers"
+        ],
+        [
+          "7311",
+          "Construction  millwrights and industrial mechanics"
+        ],
+        [
+          "7611",
+          "Construction  trades helpers and labourers"
+        ],
+        [
+          "7204",
+          "Contractors  and supervisors, carpentry trades"
+        ],
+        [
+          "7202",
+          "Contractors  and supervisors, electrical trades and telecommunications occupations"
+        ],
+        [
+          "7302",
+          "Contractors  and supervisors, heavy equipment operator crews"
+        ],
+        [
+          "8255",
+          "Contractors  and supervisors, landscaping, grounds maintenance and horticulture services"
+        ],
+        [
+          "7201",
+          "Contractors  and supervisors, machining, metal forming, shaping and erecting trades and  related occupations"
+        ],
+        [
+          "7301",
+          "Contractors  and supervisors, mechanic trades"
+        ],
+        [
+          "8222",
+          "Contractors  and supervisors, oil and gas drilling and services"
+        ],
+        [
+          "7205",
+          "Contractors  and supervisors, other construction trades, installers, repairers and  servicers"
+        ],
+        [
+          "7203",
+          "Contractors  and supervisors, pipefitting trades"
+        ],
+        [
+          "6322",
+          "Cooks"
+        ],
+        [
+          "0601",
+          "Corporate  sales managers"
+        ],
+        [
+          "4422",
+          "Correctional  service officers"
+        ],
+        [
+          "1452",
+          "Correspondence,  publication and regulatory clerks"
+        ],
+        [
+          "1513",
+          "Couriers,  messengers and door-to-door distributors"
+        ],
+        [
+          "1416",
+          "Court  clerks"
+        ],
+        [
+          "1227",
+          "Court  officers and justices of the peace"
+        ],
+        [
+          "1251",
+          "Court  reporters, medical transcriptionists and related occupations"
+        ],
+        [
+          "7371",
+          "Crane  operators"
+        ],
+        [
+          "6314",
+          "Customer  and information services supervisors"
+        ],
+        [
+          "6551",
+          "Customer  services representatives - financial institutions"
+        ],
+        [
+          "1315",
+          "Customs,  ship and other brokers"
+        ],
+        [
+          "5134",
+          "Dancers"
+        ],
+        [
+          "1422",
+          "Data  entry clerks"
+        ],
+        [
+          "2172",
+          "Database  analysts and data administrators"
+        ],
+        [
+          "2273",
+          "Deck  officers, water transport"
+        ],
+        [
+          "7514",
+          "Delivery  and courier service drivers"
+        ],
+        [
+          "3411",
+          "Dental  assistants"
+        ],
+        [
+          "3222",
+          "Dental  hygienists and dental therapists"
+        ],
+        [
+          "3223",
+          "Dental  technologists, technicians and laboratory assistants"
+        ],
+        [
+          "3113",
+          "Dentists"
+        ],
+        [
+          "3221",
+          "Denturists"
+        ],
+        [
+          "1423",
+          "Desktop  publishing operators and related occupations"
+        ],
+        [
+          "3132",
+          "Dietitians  and nutritionists"
+        ],
+        [
+          "1525",
+          "Dispatchers"
+        ],
+        [
+          "2253",
+          "Drafting  technologists and technicians"
+        ],
+        [
+          "7372",
+          "Drillers  and blasters - surface mining, quarrying and construction"
+        ],
+        [
+          "6741",
+          "Dry  cleaning, laundry and related occupations"
+        ],
+        [
+          "4214",
+          "Early  childhood educators and assistants"
+        ],
+        [
+          "4162",
+          "Economists  and economic policy researchers and analysts"
+        ],
+        [
+          "5122",
+          "Editors"
+        ],
+        [
+          "4166",
+          "Education  policy researchers, consultants and program officers"
+        ],
+        [
+          "4033",
+          "Educational  counsellors"
+        ],
+        [
+          "2241",
+          "Electrical  and electronics engineering technologists and technicians"
+        ],
+        [
+          "2133",
+          "Electrical  and electronics engineers"
+        ],
+        [
+          "7333",
+          "Electrical  mechanics"
+        ],
+        [
+          "7244",
+          "Electrical  power line and cable workers"
+        ],
+        [
+          "7241",
+          "Electricians  (except industrial and power system)"
+        ],
+        [
+          "2242",
+          "Electronic  service technicians (household and business equipment)"
+        ],
+        [
+          "9523",
+          "Electronics  assemblers, fabricators, inspectors and testers"
+        ],
+        [
+          "4413",
+          "Elementary  and secondary school teacher assistants"
+        ],
+        [
+          "4032",
+          "Elementary  school and kindergarten teachers"
+        ],
+        [
+          "7318",
+          "Elevator  constructors and mechanics"
+        ],
+        [
+          "4156",
+          "Employment  counsellors"
+        ],
+        [
+          "1228",
+          "Employment  insurance, immigration, border services and revenue officers"
+        ],
+        [
+          "2274",
+          "Engineer  officers, water transport"
+        ],
+        [
+          "2262",
+          "Engineering  inspectors and regulatory officers"
+        ],
+        [
+          "0211",
+          "Engineering  managers"
+        ],
+        [
+          "6562",
+          "Estheticians,  electrologists and related occupations"
+        ],
+        [
+          "1222",
+          "Executive  assistants"
+        ],
+        [
+          "6312",
+          "Executive  housekeepers"
+        ],
+        [
+          "9445",
+          "Fabric,  fur and leather cutters"
+        ],
+        [
+          "0714",
+          "Facility  operation and maintenance managers"
+        ],
+        [
+          "4153",
+          "Family,  marriage and other related counsellors"
+        ],
+        [
+          "5222",
+          "Film  and video camera operators"
+        ],
+        [
+          "1112",
+          "Financial  and investment analysts"
+        ],
+        [
+          "1111",
+          "Financial  auditors and accountants"
+        ],
+        [
+          "6235",
+          "Financial  sales representatives"
+        ],
+        [
+          "0111",
+          "Financial managers"
+        ],
+        [
+          "0432",
+          "Fire  chiefs and senior firefighting officers"
+        ],
+        [
+          "4312",
+          "Firefighters"
+        ],
+        [
+          "9463",
+          "Fish  and seafood plant workers"
+        ],
+        [
+          "8262",
+          "Fishermen/women"
+        ],
+        [
+          "8261",
+          "Fishing  masters and officers"
+        ],
+        [
+          "8441",
+          "Fishing  vessel deckhands"
+        ],
+        [
+          "7295",
+          "Floor  covering installers"
+        ],
+        [
+          "6513",
+          "Food  and beverage servers"
+        ],
+        [
+          "6711",
+          "Food  counter attendants, kitchen helpers and related support occupations"
+        ],
+        [
+          "6311",
+          "Food  service supervisors"
+        ],
+        [
+          "2122",
+          "Forestry  professionals"
+        ],
+        [
+          "2223",
+          "Forestry  technologists and technicians"
+        ],
+        [
+          "9412",
+          "Foundry  workers"
+        ],
+        [
+          "6346",
+          "Funeral  directors and embalmers"
+        ],
+        [
+          "9532",
+          "Furniture  and fixture assemblers and inspectors"
+        ],
+        [
+          "9534",
+          "Furniture  finishers and refinishers"
+        ],
+        [
+          "7253",
+          "Gas  fitters"
+        ],
+        [
+          "8431",
+          "General  farm workers"
+        ],
+        [
+          "1411",
+          "General  office support workers"
+        ],
+        [
+          "3112",
+          "General  practitioners and family physicians"
+        ],
+        [
+          "2212",
+          "Geological  and mineral technologists and technicians"
+        ],
+        [
+          "2144",
+          "Geological  engineers"
+        ],
+        [
+          "2113",
+          "Geoscientists  and oceanographers"
+        ],
+        [
+          "9413",
+          "Glass  forming and finishing machine operators and glass cutters"
+        ],
+        [
+          "7292",
+          "Glaziers"
+        ],
+        [
+          "0412",
+          "Government  managers - economic analysis, policy development and program administration"
+        ],
+        [
+          "0413",
+          "Government  managers - education policy development and program administration"
+        ],
+        [
+          "0411",
+          "Government  managers - health and social policy development and program administration"
+        ],
+        [
+          "5223",
+          "Graphic  arts technicians"
+        ],
+        [
+          "5241",
+          "Graphic  designers and illustrators"
+        ],
+        [
+          "6524",
+          "Ground  and water transport ticket agents, cargo service representatives and related  clerks"
+        ],
+        [
+          "6341",
+          "Hairstylists  and barbers"
+        ],
+        [
+          "8611",
+          "Harvesting  labourers"
+        ],
+        [
+          "1252",
+          "Health  information management occupations"
+        ],
+        [
+          "4165",
+          "Health  policy researchers, consultants and program officers"
+        ],
+        [
+          "7521",
+          "Heavy  equipment operators (except crane)"
+        ],
+        [
+          "7312",
+          "Heavy-duty  equipment mechanics"
+        ],
+        [
+          "0712",
+          "Home  building and renovation managers"
+        ],
+        [
+          "4411",
+          "Home  child care providers"
+        ],
+        [
+          "4412",
+          "Home  support workers, housekeepers and related occupations"
+        ],
+        [
+          "6525",
+          "Hotel  front desk clerks"
+        ],
+        [
+          "1223",
+          "Human  resources and recruitment officers"
+        ],
+        [
+          "1121",
+          "Human  resources professionals"
+        ],
+        [
+          "0112",
+          "Human resources managers"
+        ],
+        [
+          "6561",
+          "Image,  social and other personal consultants"
+        ],
+        [
+          "2141",
+          "Industrial  and manufacturing engineers"
+        ],
+        [
+          "9462",
+          "Industrial  butchers and meat cutters, poultry preparers and related workers"
+        ],
+        [
+          "2252",
+          "Industrial  designers"
+        ],
+        [
+          "7242",
+          "Industrial  electricians"
+        ],
+        [
+          "2233",
+          "Industrial  engineering and manufacturing technologists and technicians"
+        ],
+        [
+          "2243",
+          "Industrial  instrument technicians and mechanics"
+        ],
+        [
+          "9536",
+          "Industrial  painters, coaters and metal finishing process operators"
+        ],
+        [
+          "9446",
+          "Industrial  sewing machine operators"
+        ],
+        [
+          "2171",
+          "Information  systems analysts and consultants"
+        ],
+        [
+          "2283",
+          "Information  systems testing technicians"
+        ],
+        [
+          "9447",
+          "Inspectors  and graders, textile, fabric, fur and leather products manufacturing"
+        ],
+        [
+          "9415",
+          "Inspectors  and testers, mineral and metal processing"
+        ],
+        [
+          "2263",
+          "Inspectors  in public and environmental health and occupational health and safety"
+        ],
+        [
+          "4215",
+          "Instructors  of persons with disabilities"
+        ],
+        [
+          "7293",
+          "Insulators"
+        ],
+        [
+          "1312",
+          "Insurance  adjusters and claims examiners"
+        ],
+        [
+          "6231",
+          "Insurance  agents and brokers"
+        ],
+        [
+          "1313",
+          "Insurance  underwriters"
+        ],
+        [
+          "0121",
+          "Insurance,  real estate and financial brokerage managers"
+        ],
+        [
+          "5242",
+          "Interior  designers and interior decorators"
+        ],
+        [
+          "7236",
+          "Ironworkers"
+        ],
+        [
+          "6733",
+          "Janitors,  caretakers and building superintendents"
+        ],
+        [
+          "6344",
+          "Jewellers,  jewellery and watch repairers and related occupations"
+        ],
+        [
+          "5123",
+          "Journalists"
+        ],
+        [
+          "4111",
+          "Judges"
+        ],
+        [
+          "9613",
+          "Labourers  in chemical products processing and utilities"
+        ],
+        [
+          "9618",
+          "Labourers  in fish and seafood processing"
+        ],
+        [
+          "9617",
+          "Labourers  in food, beverage and associated products processing"
+        ],
+        [
+          "9612",
+          "Labourers  in metal fabrication"
+        ],
+        [
+          "9611",
+          "Labourers  in mineral and metal processing"
+        ],
+        [
+          "9615",
+          "Labourers  in rubber and plastic products manufacturing"
+        ],
+        [
+          "9616",
+          "Labourers  in textile processing"
+        ],
+        [
+          "9614",
+          "Labourers  in wood, pulp and paper processing"
+        ],
+        [
+          "2254",
+          "Land  survey technologists and technicians"
+        ],
+        [
+          "2154",
+          "Land  surveyors"
+        ],
+        [
+          "2225",
+          "Landscape  and horticulture technicians and specialists"
+        ],
+        [
+          "2152",
+          "Landscape  architects"
+        ],
+        [
+          "8612",
+          "Landscaping  and grounds maintenance labourers"
+        ],
+        [
+          "4112",
+          "Lawyers  and Quebec notaries"
+        ],
+        [
+          "1242",
+          "Legal  administrative assistants"
+        ],
+        [
+          "0011",
+          "Legislators"
+        ],
+        [
+          "1512",
+          "Letter  carriers"
+        ],
+        [
+          "5111",
+          "Librarians"
+        ],
+        [
+          "5211",
+          "Library  and public archive technicians"
+        ],
+        [
+          "1451",
+          "Library  assistants and clerks"
+        ],
+        [
+          "0511",
+          "Library,  archive, museum and art gallery managers"
+        ],
+        [
+          "3233",
+          "Licensed  practical nurses"
+        ],
+        [
+          "6731",
+          "Light  duty cleaners"
+        ],
+        [
+          "8616",
+          "Logging  and forestry labourers"
+        ],
+        [
+          "8241",
+          "Logging  machinery operators"
+        ],
+        [
+          "7451",
+          "Longshore  workers"
+        ],
+        [
+          "9436",
+          "Lumber  graders and other wood processing inspectors and graders"
+        ],
+        [
+          "6511",
+          "Ma_tres  d'h_tel and hosts/hostesses"
+        ],
+        [
+          "7316",
+          "Machine  fitters"
+        ],
+        [
+          "9527",
+          "Machine  operators and inspectors, electrical apparatus manufacturing"
+        ],
+        [
+          "9411",
+          "Machine  operators, mineral and metal processing"
+        ],
+        [
+          "9417",
+          "Machining  tool operators"
+        ],
+        [
+          "7231",
+          "Machinists  and machining and tooling inspectors"
+        ],
+        [
+          "1511",
+          "Mail,  postal and related workers"
+        ],
+        [
+          "0512",
+          "Managers  - publishing, motion pictures, broadcasting and performing arts"
+        ],
+        [
+          "0821",
+          "Managers  in agriculture"
+        ],
+        [
+          "0823",
+          "Managers  in aquaculture"
+        ],
+        [
+          "0651",
+          "Managers  in customer and personal services, n.e.c."
+        ],
+        [
+          "0311",
+          "Managers  in health care"
+        ],
+        [
+          "0822",
+          "Managers  in horticulture"
+        ],
+        [
+          "0811",
+          "Managers  in natural resources production and fishing"
+        ],
+        [
+          "0423",
+          "Managers  in social, community and correctional services"
+        ],
+        [
+          "0731",
+          "Managers  in transportation"
+        ],
+        [
+          "0911",
+          "Manufacturing  managers"
+        ],
+        [
+          "3236",
+          "Massage  therapists"
+        ],
+        [
+          "7452",
+          "Material handlers"
+        ],
+        [
+          "2161",
+          "Mathematicians,  statisticians and actuaries"
+        ],
+        [
+          "9526",
+          "Mechanical  assemblers and inspectors"
+        ],
+        [
+          "2232",
+          "Mechanical  engineering technologists and technicians"
+        ],
+        [
+          "2132",
+          "Mechanical  engineers"
+        ],
+        [
+          "1243",
+          "Medical  administrative assistants"
+        ],
+        [
+          "3212",
+          "Medical  laboratory technicians and pathologists' assistants"
+        ],
+        [
+          "3211",
+          "Medical  laboratory technologists"
+        ],
+        [
+          "3215",
+          "Medical  radiation technologists"
+        ],
+        [
+          "3216",
+          "Medical  sonographers"
+        ],
+        [
+          "2142",
+          "Metallurgical  and materials engineers"
+        ],
+        [
+          "9416",
+          "Metalworking  and forging machine operators"
+        ],
+        [
+          "2114",
+          "Meteorologists  and climatologists"
+        ],
+        [
+          "8614",
+          "Mine  labourers"
+        ],
+        [
+          "2143",
+          "Mining  engineers"
+        ],
+        [
+          "9522",
+          "Motor  vehicle assemblers, inspectors and testers"
+        ],
+        [
+          "7322",
+          "Motor  vehicle body repairers"
+        ],
+        [
+          "7334",
+          "Motorcycle,  all-terrain vehicle and other related mechanics"
+        ],
+        [
+          "5133",
+          "Musicians  and singers"
+        ],
+        [
+          "4161",
+          "Natural  and applied science policy researchers, consultants and program officers"
+        ],
+        [
+          "4313",
+          "Non-commissioned  ranks of the Canadian Forces"
+        ],
+        [
+          "2261",
+          "Non-destructive  testers and inspection technicians"
+        ],
+        [
+          "3413",
+          "Nurse  aides, orderlies and patient service associates"
+        ],
+        [
+          "8432",
+          "Nursery  and greenhouse workers"
+        ],
+        [
+          "3011",
+          "Nursing  co-ordinators and supervisors"
+        ],
+        [
+          "3143",
+          "Occupational  therapists"
+        ],
+        [
+          "8615",
+          "Oil  and gas drilling, servicing and related labourers"
+        ],
+        [
+          "8232",
+          "Oil  and gas well drillers, servicers, testers and related workers"
+        ],
+        [
+          "8412",
+          "Oil  and gas well drilling and related workers and services operators"
+        ],
+        [
+          "7331",
+          "Oil  and solid fuel heating mechanics"
+        ],
+        [
+          "6722",
+          "Operators  and attendants in amusement, recreation and sport"
+        ],
+        [
+          "3231",
+          "Opticians"
+        ],
+        [
+          "3121",
+          "Optometrists"
+        ],
+        [
+          "0114",
+          "Other  administrative services managers"
+        ],
+        [
+          "3414",
+          "Other  assisting occupations in support of health services"
+        ],
+        [
+          "7535",
+          "Other  automotive mechanical installers and servicers"
+        ],
+        [
+          "0125",
+          "Other  business services managers"
+        ],
+        [
+          "6552",
+          "Other  customer and information services representatives"
+        ],
+        [
+          "1114",
+          "Other  financial officers"
+        ],
+        [
+          "4216",
+          "Other  instructors"
+        ],
+        [
+          "9619",
+          "Other  labourers in processing, manufacturing and utilities"
+        ],
+        [
+          "0414",
+          "Other  managers in public administration"
+        ],
+        [
+          "3219",
+          "Other  medical technologists and technicians (except dental health)"
+        ],
+        [
+          "9418",
+          "Other  metal products machine operators"
+        ],
+        [
+          "5232",
+          "Other  performers, n.e.c."
+        ],
+        [
+          "6564",
+          "Other  personal service occupations"
+        ],
+        [
+          "9537",
+          "Other  products assemblers, finishers and inspectors"
+        ],
+        [
+          "2148",
+          "Other  professional engineers, n.e.c."
+        ],
+        [
+          "3125",
+          "Other  professional occupations in health diagnosing and treating"
+        ],
+        [
+          "2115",
+          "Other  professional occupations in physical sciences"
+        ],
+        [
+          "4169",
+          "Other  professional occupations in social science, n.e.c."
+        ],
+        [
+          "3144",
+          "Other  professional occupations in therapy and assessment"
+        ],
+        [
+          "4217",
+          "Other  religious occupations"
+        ],
+        [
+          "7445",
+          "Other  repairers and servicers"
+        ],
+        [
+          "6623",
+          "Other  sales related occupations"
+        ],
+        [
+          "6742",
+          "Other  service support occupations, n.e.c."
+        ],
+        [
+          "6316",
+          "Other  services supervisors"
+        ],
+        [
+          "7335",
+          "Other  small engine and small equipment repairers"
+        ],
+        [
+          "5226",
+          "Other  technical and co-ordinating occupations in motion pictures, broadcasting and  the performing arts"
+        ],
+        [
+          "3237",
+          "Other  technical occupations in therapy and assessment"
+        ],
+        [
+          "7384",
+          "Other  trades and related occupations, n.e.c."
+        ],
+        [
+          "7612",
+          "Other  trades helpers and labourers"
+        ],
+        [
+          "9434",
+          "Other  wood processing machine operators"
+        ],
+        [
+          "9533",
+          "Other  wood products assemblers and inspectors"
+        ],
+        [
+          "6532",
+          "Outdoor  sport and recreational guides"
+        ],
+        [
+          "7294",
+          "Painters  and decorators (except interior decorators)"
+        ],
+        [
+          "5136",
+          "Painters,  sculptors and other visual artists"
+        ],
+        [
+          "9435",
+          "Paper  converting machine operators"
+        ],
+        [
+          "9433",
+          "Papermaking  and finishing machine operators"
+        ],
+        [
+          "4211",
+          "Paralegal  and related occupations"
+        ],
+        [
+          "3234",
+          "Paramedical  occupations"
+        ],
+        [
+          "5245",
+          "Patternmakers  - textile, leather and fur products"
+        ],
+        [
+          "1432",
+          "Payroll  clerks"
+        ],
+        [
+          "1415",
+          "Personnel  clerks"
+        ],
+        [
+          "7444",
+          "Pest  controllers and fumigators"
+        ],
+        [
+          "6563",
+          "Pet  groomers and animal care workers"
+        ],
+        [
+          "2145",
+          "Petroleum  engineers"
+        ],
+        [
+          "9232",
+          "Petroleum,  gas and chemical process operators"
+        ],
+        [
+          "3131",
+          "Pharmacists"
+        ],
+        [
+          "5221",
+          "Photographers"
+        ],
+        [
+          "9474",
+          "Photographic  and film processors"
+        ],
+        [
+          "2111",
+          "Physicists  and astronomers"
+        ],
+        [
+          "3142",
+          "Physiotherapists"
+        ],
+        [
+          "7284",
+          "Plasterers,  drywall installers and finishers and lathers"
+        ],
+        [
+          "9535",
+          "Plastic  products assemblers, finishers and inspectors"
+        ],
+        [
+          "9422",
+          "Plastics  processing machine operators"
+        ],
+        [
+          "9471",
+          "Plateless  printing equipment operators"
+        ],
+        [
+          "7251",
+          "Plumbers"
+        ],
+        [
+          "4311",
+          "Police  officers (except commissioned)"
+        ],
+        [
+          "4012",
+          "Post-secondary  teaching and research assistants"
+        ],
+        [
+          "0132",
+          "Postal  and courier services managers"
+        ],
+        [
+          "9241",
+          "Power  engineers and power systems operators"
+        ],
+        [
+          "7243",
+          "Power  system electricians"
+        ],
+        [
+          "3232",
+          "Practitioners  of natural healing"
+        ],
+        [
+          "7381",
+          "Printing  press operators"
+        ],
+        [
+          "4155",
+          "Probation  and parole officers and related occupations"
+        ],
+        [
+          "9461",
+          "Process  control and machine operators, food, beverage and associated products  processing"
+        ],
+        [
+          "5131",
+          "Producers,  directors, choreographers and related occupations"
+        ],
+        [
+          "1523",
+          "Production  logistics co-ordinators"
+        ],
+        [
+          "1123",
+          "Professional  occupations in advertising, marketing and public relations"
+        ],
+        [
+          "1122",
+          "Professional  occupations in business management consulting"
+        ],
+        [
+          "4154",
+          "Professional  occupations in religion"
+        ],
+        [
+          "5254",
+          "Program  leaders and instructors in recreation, sport and fitness"
+        ],
+        [
+          "4168",
+          "Program  officers unique to government"
+        ],
+        [
+          "1224",
+          "Property  administrators"
+        ],
+        [
+          "4151",
+          "Psychologists"
+        ],
+        [
+          "7621",
+          "Public  works and maintenance labourers"
+        ],
+        [
+          "7522",
+          "Public  works maintenance equipment operators and related workers"
+        ],
+        [
+          "9432",
+          "Pulp  mill machine operators"
+        ],
+        [
+          "9235",
+          "Pulping,  papermaking and coating control operators"
+        ],
+        [
+          "1225",
+          "Purchasing  agents and officers"
+        ],
+        [
+          "1524",
+          "Purchasing  and inventory control workers"
+        ],
+        [
+          "0113",
+          "Purchasing managers"
+        ],
+        [
+          "6522",
+          "Pursers  and flight attendants"
+        ],
+        [
+          "7622",
+          "Railway  and motor transport labourers"
+        ],
+        [
+          "7361",
+          "Railway  and yard locomotive engineers"
+        ],
+        [
+          "7314",
+          "Railway  carmen/women"
+        ],
+        [
+          "7362",
+          "Railway  conductors and brakemen/women"
+        ],
+        [
+          "2275",
+          "Railway  traffic controllers and marine traffic regulators"
+        ],
+        [
+          "7531",
+          "Railway  yard and track maintenance workers"
+        ],
+        [
+          "6232",
+          "Real  estate agents and salespersons"
+        ],
+        [
+          "1414",
+          "Receptionists"
+        ],
+        [
+          "1253",
+          "Records  management technicians"
+        ],
+        [
+          "4167",
+          "Recreation,  sports and fitness policy researchers, consultants and program officers"
+        ],
+        [
+          "0513",
+          "Recreation,  sports and fitness program and service directors"
+        ],
+        [
+          "7313",
+          "Refrigeration  and air conditioning mechanics"
+        ],
+        [
+          "3012",
+          "Registered  nurses and registered psychiatric nurses"
+        ],
+        [
+          "7441",
+          "Residential  and commercial installers and servicers"
+        ],
+        [
+          "3214",
+          "Respiratory  therapists, clinical perfusionists and cardiopulmonary technologists"
+        ],
+        [
+          "0631",
+          "Restaurant  and food service managers"
+        ],
+        [
+          "6222",
+          "Retail  and wholesale buyers"
+        ],
+        [
+          "0621",
+          "Retail  and wholesale trade managers"
+        ],
+        [
+          "6211",
+          "Retail  sales supervisors"
+        ],
+        [
+          "6421",
+          "Retail  salespersons"
+        ],
+        [
+          "7291",
+          "Roofers  and shinglers"
+        ],
+        [
+          "9423",
+          "Rubber  processing machine operators and related workers"
+        ],
+        [
+          "6411",
+          "Sales  and account representatives - wholesale trade (non-technical)"
+        ],
+        [
+          "9431",
+          "Sawmill  machine operators"
+        ],
+        [
+          "0422",
+          "School  principals and administrators of elementary and secondary education"
+        ],
+        [
+          "4031",
+          "Secondary  school teachers"
+        ],
+        [
+          "1113",
+          "Securities  agents, investment dealers and brokers"
+        ],
+        [
+          "6541",
+          "Security  guards and related security service occupations"
+        ],
+        [
+          "0012",
+          "Senior government managers and officials"
+        ],
+        [
+          "0016",
+          "Senior managers - construction, transportation, production and utilities"
+        ],
+        [
+          "0013",
+          "Senior managers - financial, communications and other business services"
+        ],
+        [
+          "0014",
+          "Senior managers - health, education, social and community services and membership organizations"
+        ],
+        [
+          "0015",
+          "Senior managers - trade, broadcasting and other services, n.e.c."
+        ],
+        [
+          "6621",
+          "Service  station attendants"
+        ],
+        [
+          "7233",
+          "Sheet  metal workers"
+        ],
+        [
+          "4421",
+          "Sheriffs  and bailiffs"
+        ],
+        [
+          "1521",
+          "Shippers  and receivers"
+        ],
+        [
+          "6343",
+          "Shoe  repairers and shoemakers"
+        ],
+        [
+          "8422",
+          "Silviculture  and forestry workers"
+        ],
+        [
+          "4212",
+          "Social  and community service workers"
+        ],
+        [
+          "4164",
+          "Social  policy researchers, consultants and program officers"
+        ],
+        [
+          "4152",
+          "Social  workers"
+        ],
+        [
+          "2173",
+          "Software  engineers and designers"
+        ],
+        [
+          "3111",
+          "Specialist  physicians"
+        ],
+        [
+          "6732",
+          "Specialized  cleaners"
+        ],
+        [
+          "5253",
+          "Sports  officials and referees"
+        ],
+        [
+          "1254",
+          "Statistical  officers and related research support occupations"
+        ],
+        [
+          "7252",
+          "Steamfitters,  pipefitters and sprinkler system installers"
+        ],
+        [
+          "6622",
+          "Store  shelf stockers, clerks and order fillers"
+        ],
+        [
+          "1522",
+          "Storekeepers  and partspersons"
+        ],
+        [
+          "7235",
+          "Structural  metal and platework fabricators and fitters"
+        ],
+        [
+          "9223",
+          "Supervisors,  electrical products manufacturing"
+        ],
+        [
+          "9222",
+          "Supervisors,  electronics manufacturing"
+        ],
+        [
+          "1212",
+          "Supervisors,  finance and insurance office workers"
+        ],
+        [
+          "9213",
+          "Supervisors,  food, beverage and associated products processing"
+        ],
+        [
+          "9215",
+          "Supervisors,  forest products processing"
+        ],
+        [
+          "9224",
+          "Supervisors,  furniture and fixtures manufacturing"
+        ],
+        [
+          "1211",
+          "Supervisors,  general office and administrative support workers"
+        ],
+        [
+          "1213",
+          "Supervisors,  library, correspondence and related information workers"
+        ],
+        [
+          "8211",
+          "Supervisors,  logging and forestry"
+        ],
+        [
+          "1214",
+          "Supervisors,  mail and message distribution occupations"
+        ],
+        [
+          "9211",
+          "Supervisors,  mineral and metal processing"
+        ],
+        [
+          "8221",
+          "Supervisors,  mining and quarrying"
+        ],
+        [
+          "7305",
+          "Supervisors,  motor transport and other ground transit operators"
+        ],
+        [
+          "9221",
+          "Supervisors,  motor vehicle assembling"
+        ],
+        [
+          "9226",
+          "Supervisors,  other mechanical and metal products manufacturing"
+        ],
+        [
+          "9227",
+          "Supervisors,  other products manufacturing and assembly"
+        ],
+        [
+          "9212",
+          "Supervisors,  petroleum, gas and chemical processing and utilities"
+        ],
+        [
+          "9214",
+          "Supervisors,  plastic and rubber products manufacturing"
+        ],
+        [
+          "7303",
+          "Supervisors,  printing and related occupations"
+        ],
+        [
+          "7304",
+          "Supervisors,  railway transport operations"
+        ],
+        [
+          "1215",
+          "Supervisors,  supply chain, tracking and scheduling co-ordination occupations"
+        ],
+        [
+          "9217",
+          "Supervisors,  textile, fabric, fur and leather products processing and manufacturing"
+        ],
+        [
+          "6721",
+          "Support  occupations in accommodation, travel and facilities set-up services"
+        ],
+        [
+          "5227",
+          "Support  occupations in motion pictures, broadcasting, photography and the performing  arts"
+        ],
+        [
+          "1454",
+          "Survey  interviewers and statistical clerks"
+        ],
+        [
+          "6342",
+          "Tailors,  dressmakers, furriers and milliners"
+        ],
+        [
+          "7513",
+          "Taxi  and limousine drivers and chauffeurs"
+        ],
+        [
+          "2255",
+          "Technical  occupations in geomatics and meteorology"
+        ],
+        [
+          "5212",
+          "Technical  occupations related to museums and art galleries"
+        ],
+        [
+          "6221",
+          "Technical  sales specialists - wholesale trade"
+        ],
+        [
+          "0131",
+          "Telecommunication  carriers managers"
+        ],
+        [
+          "7246",
+          "Telecommunications  installation and repair workers"
+        ],
+        [
+          "7245",
+          "Telecommunications  line and cable workers"
+        ],
+        [
+          "9465",
+          "Testers  and graders, food, beverage and associated products processing"
+        ],
+        [
+          "9441",
+          "Textile  fibre and yarn, hide and pelt processing machine operators and workers"
+        ],
+        [
+          "5243",
+          "Theatre,  fashion, exhibit and other creative designers"
+        ],
+        [
+          "7283",
+          "Tilesetters"
+        ],
+        [
+          "7232",
+          "Tool  and die makers"
+        ],
+        [
+          "6531",
+          "Tour  and travel guides"
+        ],
+        [
+          "5125",
+          "Translators,  terminologists and interpreters"
+        ],
+        [
+          "7511",
+          "Transport  truck drivers"
+        ],
+        [
+          "1526",
+          "Transportation  route and crew schedulers"
+        ],
+        [
+          "8442",
+          "Trappers  and hunters"
+        ],
+        [
+          "6521",
+          "Travel  counsellors"
+        ],
+        [
+          "8411",
+          "Underground  mine service and support workers"
+        ],
+        [
+          "8231",
+          "Underground  production and development miners"
+        ],
+        [
+          "4011",
+          "University  professors and lecturers"
+        ],
+        [
+          "6345",
+          "Upholsterers"
+        ],
+        [
+          "2153",
+          "Urban  and land use planners"
+        ],
+        [
+          "2282",
+          "User  support technicians"
+        ],
+        [
+          "0912",
+          "Utilities  managers"
+        ],
+        [
+          "3114",
+          "Veterinarians"
+        ],
+        [
+          "9243",
+          "Water  and waste treatment plant operators"
+        ],
+        [
+          "7532",
+          "Water  transport deck and engine room crew"
+        ],
+        [
+          "7373",
+          "Water  well drillers"
+        ],
+        [
+          "7442",
+          "Waterworks  and gas maintenance workers"
+        ],
+        [
+          "9442",
+          "Weavers,  knitters and other fabric making occupations"
+        ],
+        [
+          "2175",
+          "Web  designers and developers"
+        ],
+        [
+          "7237",
+          "Welders  and related machine operators"
+        ],
+        [
+          "9437",
+          "Woodworking  machine operators"
+        ]
+      ]
+    },
+    {
+      "headerName": "CRS Score",
+      "field": "xunop-hazat-nopas-fecis-gimuc-tikek-sahaf-hihyf-cyxex",
+      "type": "select",
+      "width": null,
+      "headerTooltip": "CRS Score",
+      "filterValues": [
+        "350",
+        "351",
+        "352",
+        "353",
+        "354",
+        "355",
+        "356",
+        "357",
+        "358",
+        "359",
+        "360",
+        "361",
+        "362",
+        "363",
+        "364",
+        "365",
+        "366",
+        "367",
+        "368",
+        "369",
+        "370",
+        "371",
+        "372",
+        "373",
+        "374",
+        "375",
+        "376",
+        "377",
+        "378",
+        "379",
+        "380",
+        "381",
+        "382",
+        "383",
+        "384",
+        "385",
+        "386",
+        "387",
+        "388",
+        "389",
+        "390",
+        "391",
+        "392",
+        "393",
+        "394",
+        "395",
+        "396",
+        "397",
+        "398",
+        "399",
+        "400",
+        "401",
+        "402",
+        "403",
+        "404",
+        "405",
+        "406",
+        "407",
+        "408",
+        "409",
+        "410",
+        "411",
+        "412",
+        "413",
+        "414",
+        "415",
+        "416",
+        "417",
+        "418",
+        "419",
+        "420",
+        "421",
+        "422",
+        "423",
+        "424",
+        "425",
+        "426",
+        "427",
+        "428",
+        "429",
+        "430",
+        "431",
+        "432",
+        "433",
+        "434",
+        "435",
+        "436",
+        "437",
+        "438",
+        "439",
+        "440",
+        "441",
+        "442",
+        "443",
+        "444",
+        "445",
+        "446",
+        "447",
+        "448",
+        "449",
+        "450",
+        "451",
+        "452",
+        "453",
+        "454",
+        "455",
+        "456",
+        "457",
+        "458",
+        "459",
+        "460",
+        "461",
+        "462",
+        "463",
+        "464",
+        "465",
+        "466",
+        "467",
+        "468",
+        "469",
+        "470",
+        "471",
+        "472",
+        "473",
+        "474",
+        "475",
+        "476",
+        "477",
+        "478",
+        "479",
+        "480",
+        "481",
+        "482",
+        "483",
+        "484",
+        "485",
+        "486",
+        "487",
+        "488",
+        "489",
+        "490",
+        "491",
+        "492",
+        "493",
+        "494",
+        "495",
+        "496",
+        "497",
+        "498",
+        "499",
+        "500",
+        "501",
+        "502",
+        "503",
+        "504",
+        "505",
+        "506",
+        "507",
+        "508",
+        "509",
+        "510",
+        "511",
+        "512",
+        "513",
+        "514",
+        "515",
+        "516",
+        "517",
+        "518",
+        "519",
+        "520",
+        "521",
+        "522",
+        "523",
+        "524",
+        "525",
+        "526",
+        "527",
+        "528",
+        "529",
+        "530",
+        "531",
+        "532",
+        "533",
+        "534",
+        "535",
+        "536",
+        "537",
+        "538",
+        "539",
+        "540",
+        "541",
+        "542",
+        "543",
+        "544",
+        "545",
+        "546",
+        "547",
+        "548",
+        "549",
+        "550",
+        "551",
+        "552",
+        "553",
+        "554",
+        "555",
+        "556",
+        "557",
+        "558",
+        "559",
+        "560",
+        "561",
+        "562",
+        "563",
+        "564",
+        "565",
+        "566",
+        "567",
+        "568",
+        "569",
+        "570",
+        "571",
+        "572",
+        "573",
+        "574",
+        "575",
+        "576",
+        "577",
+        "578",
+        "579",
+        "580",
+        "581",
+        "582",
+        "583",
+        "584",
+        "585",
+        "586",
+        "587",
+        "588",
+        "589",
+        "590",
+        "591",
+        "592",
+        "593",
+        "594",
+        "595",
+        "596",
+        "597",
+        "598",
+        "599",
+        "600",
+        "601",
+        "602",
+        "603",
+        "604",
+        "605",
+        "606",
+        "607",
+        "608",
+        "609",
+        "610",
+        "611",
+        "612",
+        "613",
+        "614",
+        "615",
+        "616",
+        "617",
+        "618",
+        "619",
+        "620",
+        "621",
+        "622",
+        "623",
+        "624",
+        "625",
+        "626",
+        "627",
+        "628",
+        "629",
+        "630",
+        "631",
+        "632",
+        "633",
+        "634",
+        "635",
+        "636",
+        "637",
+        "638",
+        "639",
+        "640",
+        "641",
+        "642",
+        "643",
+        "644",
+        "645",
+        "646",
+        "647",
+        "648",
+        "649",
+        "650",
+        "651",
+        "652",
+        "653",
+        "654",
+        "655",
+        "656",
+        "657",
+        "658",
+        "659",
+        "660",
+        "661",
+        "662",
+        "663",
+        "664",
+        "665",
+        "666",
+        "667",
+        "668",
+        "669",
+        "670",
+        "671",
+        "672",
+        "673",
+        "674",
+        "675",
+        "676",
+        "677",
+        "678",
+        "679",
+        "680",
+        "681",
+        "682",
+        "683",
+        "684",
+        "685",
+        "686",
+        "687",
+        "688",
+        "689",
+        "690",
+        "691",
+        "692",
+        "693",
+        "694",
+        "695",
+        "696",
+        "697",
+        "698",
+        "699",
+        "700",
+        "701",
+        "702",
+        "703",
+        "704",
+        "705",
+        "706",
+        "707",
+        "708",
+        "709",
+        "710",
+        "711",
+        "712",
+        "713",
+        "714",
+        "715",
+        "716",
+        "717",
+        "718",
+        "719",
+        "720",
+        "721",
+        "722",
+        "723",
+        "724",
+        "725",
+        "726",
+        "727",
+        "728",
+        "729",
+        "730",
+        "731",
+        "732",
+        "733",
+        "734",
+        "735",
+        "736",
+        "737",
+        "738",
+        "739",
+        "740",
+        "741",
+        "742",
+        "743",
+        "744",
+        "745",
+        "746",
+        "747",
+        "748",
+        "749",
+        "750",
+        "751",
+        "752",
+        "753",
+        "754",
+        "755",
+        "756",
+        "757",
+        "758",
+        "759",
+        "760",
+        "761",
+        "762",
+        "763",
+        "764",
+        "765",
+        "766",
+        "767",
+        "768",
+        "769",
+        "770",
+        "771",
+        "772",
+        "773",
+        "774",
+        "775",
+        "776",
+        "777",
+        "778",
+        "779",
+        "780",
+        "781",
+        "782",
+        "783",
+        "784",
+        "785",
+        "786",
+        "787",
+        "788",
+        "789",
+        "790",
+        "791",
+        "792",
+        "793",
+        "794",
+        "795",
+        "796",
+        "797",
+        "798",
+        "799",
+        "800",
+        "801",
+        "802",
+        "803",
+        "804",
+        "805",
+        "806",
+        "807",
+        "808",
+        "809",
+        "810",
+        "811",
+        "812",
+        "813",
+        "814",
+        "815",
+        "816",
+        "817",
+        "818",
+        "819",
+        "820",
+        "821",
+        "822",
+        "823",
+        "824",
+        "825",
+        "826",
+        "827",
+        "828",
+        "829",
+        "830",
+        "831",
+        "832",
+        "833",
+        "834",
+        "835",
+        "836",
+        "837",
+        "838",
+        "839",
+        "840",
+        "841",
+        "842",
+        "843",
+        "844",
+        "845",
+        "846",
+        "847",
+        "848",
+        "849",
+        "850",
+        "851",
+        "852",
+        "853",
+        "854",
+        "855",
+        "856",
+        "857",
+        "858",
+        "859",
+        "860",
+        "861",
+        "862",
+        "863",
+        "864",
+        "865",
+        "866",
+        "867",
+        "868",
+        "869",
+        "870",
+        "871",
+        "872",
+        "873",
+        "874",
+        "875",
+        "876",
+        "877",
+        "878",
+        "879",
+        "880",
+        "881",
+        "882",
+        "883",
+        "884",
+        "885",
+        "886",
+        "887",
+        "888",
+        "889",
+        "890",
+        "891",
+        "892",
+        "893",
+        "894",
+        "895",
+        "896",
+        "897",
+        "898",
+        "899",
+        "900",
+        "901",
+        "902",
+        "903",
+        "904",
+        "905",
+        "906",
+        "907",
+        "908",
+        "909",
+        "910",
+        "911",
+        "912",
+        "913",
+        "914",
+        "915",
+        "916",
+        "917",
+        "918",
+        "919",
+        "920",
+        "921",
+        "922",
+        "923",
+        "924",
+        "925",
+        "926",
+        "927",
+        "928",
+        "929",
+        "930",
+        "931",
+        "932",
+        "933",
+        "934",
+        "935",
+        "936",
+        "937",
+        "938",
+        "939",
+        "940",
+        "941",
+        "942",
+        "943",
+        "944",
+        "945",
+        "946",
+        "947",
+        "948",
+        "949",
+        "950",
+        "951",
+        "952",
+        "953",
+        "954",
+        "955",
+        "956",
+        "957",
+        "958",
+        "959",
+        "960",
+        "961",
+        "962",
+        "963",
+        "964",
+        "965",
+        "966",
+        "967",
+        "968",
+        "969",
+        "970",
+        "971",
+        "972",
+        "973",
+        "974",
+        "975",
+        "976",
+        "977",
+        "978",
+        "979",
+        "980",
+        "981",
+        "982",
+        "983",
+        "984",
+        "985",
+        "986",
+        "987",
+        "988",
+        "989",
+        "990",
+        "991",
+        "992",
+        "993",
+        "994",
+        "995",
+        "996",
+        "997",
+        "998",
+        "999",
+        "1000"
+      ]
+    },
+    {
+      "headerName": "CoPR Expiration Date",
+      "field": "xovez-gikef-regic-cynuk-bekeb-razer-hecif-sykuz-byxox",
+      "type": "date",
+      "width": 200,
+      "headerTooltip": "The date both eCoPR and regular CoPRs expire",
+      "filterValues": null
+    },
+    {
+      "headerName": "Refused",
+      "field": "xetel-cazyz-nomib-senum-fyhuf-cefuc-hitiv-lyhir-voxex",
+      "type": "date",
+      "width": null,
+      "headerTooltip": "if refused select a date",
+      "filterValues": null
+    },
+    {
+      "headerName": "Additional Document Request Date (if any)",
+      "field": "xekiz-kozov-bamat-mekum-nabov-musog-ronyk-punyc-dyxex",
+      "type": "date",
+      "width": 250,
+      "headerTooltip": "The date additional documents were requested",
+      "filterValues": null
+    },
+    {
+      "headerName": "Additional Info",
+      "field": "xugaz-tuhuz-kamih-mosyg-faput-lirod-romuk-napev-moxyx",
+      "type": "text",
+      "width": 200,
+      "headerTooltip": "Any additional information",
+      "filterValues": null
+    },
+    {
+      "headerName": "Number of Days after AOR to Meds passed",
+      "field": "xorin-labez-tudat-kabys-desut-simam-nopet-gymar-zaxox",
+      "type": "range",
+      "width": 300,
+      "headerTooltip": "Number of Days after AOR to Meds passed",
+      "filterValues": null
+    },
+    {
+      "headerName": "Number of days from AOR to BIL",
+      "field": "xodih-tonov-feroz-gynad-buman-sapot-susyc-cyhih-gyxex",
+      "type": "range",
+      "width": 300,
+      "headerTooltip": "Amount of Days from AOR to BIL (Biometrics Letter)",
+      "filterValues": null
+    },
+    {
+      "headerName": "Number of Days after Meds passed to PPR",
+      "field": "xorap-tolyp-nehov-latec-cykyp-kegor-tarac-feroc-goxux",
+      "type": "range",
+      "width": 300,
+      "headerTooltip": "Number of Days after Meds passed to PPR",
+      "filterValues": null
+    }
+  ]
+}

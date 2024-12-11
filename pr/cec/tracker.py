@@ -6,6 +6,9 @@ from tqdm import tqdm
 import requests
 import matplotlib.pyplot as plt
 import os
+from datetime import datetime, timedelta
+
+pd.set_option('display.max_columns', None)
 
 # Get the directory of this file
 MODULE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -13,7 +16,7 @@ MODULE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Paths to JSON files
 COLUMNS_FILE = os.path.join(MODULE_DIR, "columns.json")
 DATA_FILE = os.path.join(MODULE_DIR, "data.json")
-PLOT_FILE = os.path.join(MODULE_DIR, "citizenship_tracker.png")
+PLOT_FILE = os.path.join(MODULE_DIR, "cec_pr_tracker.png")
 
 
 def get_and_write_data():
@@ -39,13 +42,13 @@ def get_and_write_data():
         'Cookie': '_honshu_session=ZFdyU2hhcHdaWGVUQllKNWlCTGF4QWhLbU0yZzlrbFRrTUpubTF0T1RGZTh3bU9wYWltQ3BodE80Qk1Qd0FvWkNLM3hLVUVyQlQvWVVYSmJJNW9IN2pwMytnQVNtT24zZ1ZvR1V3V2tTSU9hLzZzbDBVNG5ra1J3djZqSUpnV2FaVTlqK2cwNUpVM0xoaWl4UEhnV0s2WER5MVhUM1hVWmFiVThUR2M4UVpWcHo1dnV1S3lNTFU5TzZpdXArWDJZL2ZCOUJNMFJUOUFtcTRvUzZlaG9IL3F0UGZnMmZVczAvNldaN0Z6N0QzZWdtWnoyVlBzNUx1QkFSL0htdjhHa2pxK2tzelVYNFZDNm5ZWUVTcUllZUNNUWo3eG1PakZDZU0xQkRSWFlHeTlUcVhNZFVFaEl4OHc4MmdMUm9iWi9WRmRjRDQ4V0VZNGdpSWQ0aUdJWWpRPT0tLXorZWxWRjVDRG5zOHBpMjN4UkpKQ2c9PQ%3D%3D--3b6fd62562c482855ac079a1e94547274ea699a7; l=en'
     }
 
-    url_0 = "https://myimmitracker.com/ca/trackers/canadian-citizenship-processing-tracker/cases?start=0&filter=%7B%22state%22%3A%5B%22Active%22%5D%7D&sort=%5B%5B%22updated%22%2C%22desc%22%5D%5D"
+    url_0 = "https://myimmitracker.com/ca/trackers/cec-express-entry-tracker/cases?start=0&filter=%7B%22state%22%3A%5B%22Active%22%5D%7D&sort=%5B%5B%22xuset-kavav-casez-nypek-sybet-synyg-nocan-tyzef-tyxux%22%2C%22desc%22%5D%2C%5B%22updated%22%2C%22desc%22%5D%5D"
     total_cases = requests.request("GET", url_0, headers=headers, data=payload).json()["cases_count"]
 
     print(f"Total cases: {total_cases}")
 
     for i in tqdm(range(0, total_cases, 100)):
-        url = f"https://myimmitracker.com/ca/trackers/canadian-citizenship-processing-tracker/cases?start={i}&filter=%7B%22state%22%3A%5B%22Active%22%5D%7D&sort=%5B%5B%22updated%22%2C%22desc%22%5D%5D"
+        url = f"https://myimmitracker.com/ca/trackers/cec-express-entry-tracker/cases?start={i}&filter=%7B%22state%22%3A%5B%22Active%22%5D%7D&sort=%5B%5B%22xuset-kavav-casez-nypek-sybet-synyg-nocan-tyzef-tyxux%22%2C%22desc%22%5D%2C%5B%22updated%22%2C%22desc%22%5D%5D"
         response = requests.request("GET", url, headers=headers, data=payload)
         values.extend(response.json()["values"])
 
@@ -107,62 +110,48 @@ def read_data():
 
 
 def get_analytics(df):
-    # List of columns relevant to the process
-    validated_columns_with_aor = [
-        'Application Sent Date',
-        'AOR Date',
-        'In-Process (ECAS) date',
-        'Test Invite letter received date',
-        'Test date',
-        'Oath Letter date',
-        'Oath Ceremony date'
-    ]
+    intervals = {
+        'Submitted to AOR': ['Submitted', 'AOR Date'],
+        'AOR to Biometrics Invitation Letter (BIL)': ['AOR Date', 'Biometrics Invitation Letter'],
+        'AOR to Medical Passed': ['AOR Date', 'Medical Passed'],
+        'Medical Passed to Decision Made': ['Medical Passed', 'Decision Made'],
+        'Decision Made to Portal 1 Email': ['Decision Made', 'Portal 1 Email (Inland)'],
+        'Portal 1 Email to Portal 2 Email': ['Portal 1 Email (Inland)', 'Portal 2 Email / PPR Date'],
+        'Portal 2 Email to CoPR': ['Portal 2 Email / PPR Date', 'eCoPR Date (Inland Landing)'],
+        'AOR to CoPR': ['AOR Date', 'eCoPR Date (Inland Landing)']
+    }
 
-    # Convert relevant columns to datetime
-    for col in validated_columns_with_aor:
-        if col in df.columns:
-            df[col] = pd.to_datetime(df[col], errors='coerce')
+    one_year_ago = datetime.now() - timedelta(days=365)
+    df_filtered = df[pd.to_datetime(df['Submitted'], errors='coerce') >= one_year_ago].copy()
 
-    # Filter for applications sent in the last year
-    one_year_ago = pd.Timestamp.now() - pd.DateOffset(years=1)
-    df = df[df['Application Sent Date'] >= one_year_ago]
+    results = []
+    for step, (start_col, end_col) in intervals.items():
+        df_filtered[step] = (
+                pd.to_datetime(df_filtered[end_col], errors='coerce') -
+                pd.to_datetime(df_filtered[start_col], errors='coerce')
+        ).dt.days
+        data = df_filtered[step].dropna()
 
-    # Filter for valid rows with non-null values in all relevant columns
-    valid_data = df.dropna(subset=validated_columns_with_aor)
+        mean = data.mean() if len(data) > 0 else None
+        results.append([step, mean])
 
-    # Calculate average time between steps
-    step_durations = {}
-    for i in range(len(validated_columns_with_aor) - 1):
-        step_name = f"{validated_columns_with_aor[i]} to {validated_columns_with_aor[i + 1]}"
-        time_diff = (valid_data[validated_columns_with_aor[i + 1]] - valid_data[validated_columns_with_aor[i]]).dt.days
-        step_durations[step_name] = time_diff.mean()
-
-    # Create a DataFrame to store and format the results
-    step_durations_df = pd.DataFrame.from_dict(
-        step_durations, orient='index', columns=['Average Time (Days)']
-    ).round(0).reset_index()
-
-    step_durations_df.columns = ['Processing Step', 'Average Time (Days)']
-
-    return step_durations_df
+    return pd.DataFrame(results, columns=['Processing Step', 'Average Time (Days)'])
 
 
 def plot_analytics(df):
-    # Remove the word "date" (case-insensitive) from all y-axis labels
-    df["Processing Step"] = df["Processing Step"].str.replace(" date", "", regex=False)
-    df["Processing Step"] = df["Processing Step"].str.replace(" Date", "", regex=False)
-
-    # Word-wrap y-axis labels
-    df["Processing Step"] = df["Processing Step"].apply(lambda x: "\n".join(textwrap.wrap(x, width=25)))
-
-    # Calculate total days
-    total_days = df["Average Time (Days)"].sum()
+    # Handle cases where "Total Time to Passport Request" might not exist
+    total_days = \
+    df.loc[df["Processing Step"] == "AOR to CoPR", "Average Time (Days)"].values[
+        0] if "AOR to CoPR" in df["Processing Step"].values else 0
 
     # Create the plot
     plt.xkcd(scale=1, length=100, randomness=2)  # Apply xkcd style
+    df_plot = df[df["Processing Step"] != "AOR to CoPR"].copy()
 
     fig, ax = plt.subplots(figsize=(10, 8))
-    bars = ax.barh(df["Processing Step"], df["Average Time (Days)"], color='skyblue')
+    df_plot["Processing Step"] = df_plot["Processing Step"].apply(lambda x: "\n".join(textwrap.wrap(x, width=20)))
+
+    bars = ax.barh(df_plot["Processing Step"], df_plot["Average Time (Days)"], color='skyblue')
 
     # Add text to bars
     for bar in bars:
@@ -171,18 +160,18 @@ def plot_analytics(df):
                 va='center', ha='left', fontsize=17)
 
     # Add "Total days" text in the top right
-    ax.text(max(df["Average Time (Days)"]), 0,
+    ax.text(max(df_plot["Average Time (Days)"]) + 3, 0,
             f"Total days: {int(total_days)}", fontsize=17, ha='center', color='red',
             bbox=dict(facecolor='white'))
 
     # Title and labels
-    ax.set_title("Canadian Citizenship Tracker", fontsize=20, loc='center')
+    ax.set_title("CEC PR Tracker", fontsize=20, loc='center')
     ax.set_xlabel("")
     ax.set_ylabel("")
 
     # Dynamically set x-axis range (e.g., add 10% buffer)
-    max_days = max(df["Average Time (Days)"])
-    ax.set_xlim(0, max_days + max_days * 0.3)  # Add a 10% buffer above max_days
+    max_days = max(df_plot["Average Time (Days)"])
+    ax.set_xlim(0, max_days + max_days * 0.3)  # Add a 30% buffer above max_days
 
     # Properly reverse the y-axis order
     ax.invert_yaxis()
@@ -192,17 +181,16 @@ def plot_analytics(df):
     plt.close(fig)
 
 
-def main():
-    get_and_write_data()
+def run():
+    # get_and_write_data()
     data = read_data()
     df = pd.DataFrame(data)
     field_to_header_name = get_field_to_columns()
     # if df column name present in field_to_header_name, replace it with headerName
     df.columns = [field_to_header_name.get(col, col) for col in df.columns]
-
     step_durations_df = get_analytics(df)
     plot_analytics(step_durations_df)
 
 
 if __name__ == "__main__":
-    main()
+    run()

@@ -1,0 +1,3 @@
+get: https://myimmitracker.com/en/ca/trackers/{tracker_name}
+extract columns.json
+extract title to make the tracker
