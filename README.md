@@ -51,11 +51,3 @@ The total processing time from "Application Submitted" to "Passport Request" is 
 
 _Last updated: 2024-12-11 22:50:36_
 
----
-
-## Usage
-
-The images are updated weekly automatically. However, if you'd like to manually update all trackers, you can run the root script:
-
-```bash
-python immix.py
