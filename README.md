@@ -6,7 +6,6 @@
 - [Canadian PR Trackers](#canadian-pr-trackers)
   - [CEC PR Tracker](#cec-pr-tracker)
   - [Spousal PR Tracker](#spousal-pr-tracker)
-- [Usage](#usage)
 
 This repository provides trackers for processing times in various Canadian immigration and citizenship processes. The graphs are updated weekly with the latest data, so you can rely on the updated version of these images without necessarily running the scripts.
 
