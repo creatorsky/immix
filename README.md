@@ -20,7 +20,7 @@ This tracker displays the average time for each processing step in the Canadian 
 ### Total Days
 The total processing time from "Application Sent" to "Oath Ceremony" is displayed at the top-right corner of the graph.
 
-_Last updated: 2025-07-14 02:25:21_
+_Last updated: 2025-07-21 02:29:10_
 
 ---
 
@@ -35,7 +35,7 @@ This tracker displays the average time for each processing step in the Canadian 
 ### Total Days
 The total processing time from "AOR" to "CoPR" is displayed at the top-right corner of the graph.
 
-_Last updated: 2025-07-14 02:25:21_
+_Last updated: 2025-07-21 02:29:10_
 
 ---
 
@@ -48,5 +48,5 @@ This tracker displays the average time for each processing step in the Canadian 
 ### Total Days
 The total processing time from "Application Submitted" to "Passport Request" is displayed at the top-right corner of the graph.
 
-_Last updated: 2025-07-14 02:25:21_
+_Last updated: 2025-07-21 02:29:10_
 
